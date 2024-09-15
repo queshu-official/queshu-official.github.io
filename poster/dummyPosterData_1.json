@@ -1,0 +1,24 @@
+{
+  "posters": [
+    {
+      "id": 0,
+      "ratioX": 724,
+      "ratioY": 1024
+    },
+    {
+      "id": 1,
+      "ratioX": 512,
+      "ratioY": 512
+    },
+    {
+      "id": 2,
+      "ratioX": 1440,
+      "ratioY": 1080
+    },
+    {
+      "id": 3,
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ]
+}
