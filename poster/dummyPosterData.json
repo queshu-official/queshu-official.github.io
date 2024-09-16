@@ -1,0 +1,74 @@
+{
+  "posterAtlas1": [
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    },
+    {
+      "ratioX": 512,
+      "ratioY": 512
+    },
+    {
+      "ratioX": 1440,
+      "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas2": [
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    },
+    {
+      "ratioX": 512,
+      "ratioY": 512
+    },
+    {
+      "ratioX": 1440,
+      "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas3": [
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    },
+    {
+      "ratioX": 512,
+      "ratioY": 512
+    },
+    {
+      "ratioX": 1440,
+      "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas4": [
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    },
+    {
+      "ratioX": 512,
+      "ratioY": 512
+    },
+    {
+      "ratioX": 1440,
+      "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ]
+}
