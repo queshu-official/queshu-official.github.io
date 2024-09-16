@@ -19,16 +19,16 @@
   ],
   "posterAtlas2": [
     {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
       "ratioX": 512,
       "ratioY": 512
     },
     {
       "ratioX": 1440,
       "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
     },
     {
       "ratioX": 724,
@@ -37,6 +37,10 @@
   ],
   "posterAtlas3": [
     {
+      "ratioX": 1080,
+      "ratioY": 1510
+    },
+    {
       "ratioX": 724,
       "ratioY": 1024
     },
@@ -45,30 +49,26 @@
       "ratioY": 512
     },
     {
-      "ratioX": 1440,
-      "ratioY": 1080
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
+      "ratioX": 840,
+      "ratioY": 840
     }
   ],
   "posterAtlas4": [
     {
+      "ratioX": 1200,
+      "ratioY": 800
+    },
+    {
       "ratioX": 724,
       "ratioY": 1024
+    },
+    {
+      "ratioX": 1080,
+      "ratioY": 1080
     },
     {
       "ratioX": 512,
       "ratioY": 512
-    },
-    {
-      "ratioX": 1440,
-      "ratioY": 1080
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
     }
   ]
 }
