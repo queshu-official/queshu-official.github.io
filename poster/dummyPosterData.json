@@ -10,7 +10,9 @@
     },
     {
       "ratioX": 1440,
-      "ratioY": 1080
+      "ratioY": 1080,
+      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d",
+      "group": "grp_0f0ec670-d574-4e99-ae5f-3717ba4ef1db"
     },
     {
       "ratioX": 720,
@@ -20,7 +22,9 @@
   "posterAtlas2": [
     {
       "ratioX": 1080,
-      "ratioY": 1510
+      "ratioY": 1510,
+      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d",
+      "group": "grp_0f0ec670-d574-4e99-ae5f-3717ba4ef1db"
     },
     {
       "ratioX": 724,
@@ -42,7 +46,9 @@
     },
     {
       "ratioX": 1080,
-      "ratioY": 1080
+      "ratioY": 1080,
+      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d",
+      "group": "grp_0f0ec670-d574-4e99-ae5f-3717ba4ef1db"
     },
     {
       "ratioX": 724,
@@ -60,7 +66,9 @@
     },
     {
       "ratioX": 1080,
-      "ratioY": 1510
+      "ratioY": 1510,
+      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d",
+      "group": "grp_0f0ec670-d574-4e99-ae5f-3717ba4ef1db"
     },
     {
       "ratioX": 1024,
