@@ -74,5 +74,23 @@
       "ratioX": 720,
       "ratioY": 720
     }
+  ],
+  "posterAtlas5": [
+    {
+      "ratioX": 1000,
+      "ratioY": 1014
+    },
+    {
+      "ratioX": 1024,
+      "ratioY": 768
+    },
+    {
+      "ratioX": 1024,
+      "ratioY": 1024
+    },
+    {
+      "ratioX": 850,
+      "ratioY": 1000
+    }
   ]
 }
