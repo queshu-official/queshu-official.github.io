@@ -1,96 +1,24 @@
 {
   "posterAtlas1": [
     {
-      "ratioX": 724,
-      "ratioY": 1024
+      "group": "grp_fc5c47bf-1714-4f8c-8a7b-9a52111e13dd",
+      "ratioX": 1014,
+      "ratioY": 1434
     },
     {
-      "ratioX": 512,
-      "ratioY": 512
+      "world": "wrld_5b435ff8-e5a5-46cc-bfea-285996d1bdc9",
+      "group": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
+      "ratioX": 1420,
+      "ratioY": 2000
     },
     {
-      "ratioX": 1440,
-      "ratioY": 1080,
-      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d"
+      "group": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
+      "ratioX": 1448,
+      "ratioY": 2048
     },
     {
-      "ratioX": 720,
-      "ratioY": 720
-    }
-  ],
-  "posterAtlas2": [
-    {
-      "ratioX": 1024,
-      "ratioY": 1024,
-      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d"
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
-      "ratioX": 512,
-      "ratioY": 512
-    },
-    {
-      "ratioX": 720,
-      "ratioY": 720
-    }
-  ],
-  "posterAtlas3": [
-    {
-      "ratioX": 1280,
-      "ratioY": 1024
-    },
-    {
-      "ratioX": 1080,
-      "ratioY": 1080,
-      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d"
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
-      "ratioX": 720,
-      "ratioY": 720
-    }
-  ],
-  "posterAtlas4": [
-    {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
-      "ratioX": 1080,
-      "ratioY": 1510,
-      "world": "wrld_2eadff86-8d29-4697-a427-07010b491e0d"
-    },
-    {
-      "ratioX": 480,
-      "ratioY": 640
-    },
-    {
-      "ratioX": 720,
-      "ratioY": 720
-    }
-  ],
-  "posterAtlas5": [
-    {
-      "ratioX": 1000,
-      "ratioY": 1414
-    },
-    {
-      "ratioX": 1024,
-      "ratioY": 768
-    },
-    {
-      "ratioX": 1024,
-      "ratioY": 1024
-    },
-    {
-      "ratioX": 850,
-      "ratioY": 1000
+      "ratioX": 764,
+      "ratioY": 1080
     }
   ]
 }
