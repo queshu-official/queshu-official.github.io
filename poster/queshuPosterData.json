@@ -1,32 +1,55 @@
 {
   "posterAtlas1": [
     {
-      "world": "wrld_de3246fa-9eb4-4f0b-b626-6b2965fd8c68",
-      "group": "grp_77a215e3-f8d9-4d87-8f2d-b80edd6be765",
+      "world": "wrld_17777e91-3c5f-4079-9291-9b0cd3d636a1",
       "ratioX": 1200,
-      "ratioY": 1697
+      "ratioY": 1800
     },
     {
-      "group": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
-      "ratioX": 1448,
-      "ratioY": 2048
+      "world": "wrld_5b435ff8-e5a5-46cc-bfea-285996d1bdc9",
+      "group": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
+      "ratioX": 1420,
+      "ratioY": 2000
     },
     {
-      "world": "wrld_807c0343-8891-448c-bacb-94b56478cb3d",
-      "ratioX": 1587,
-      "ratioY": 2245
+      "ratioX": 1080,
+      "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas2": [
+    {
+      "world": "wrld_95d8e85b-d029-45ec-a278-a3e2e0ac3ff5",
+      "group": "grp_1628482c-1ed2-403a-b0f4-fc0d41977dd7",
+      "ratioX": 1024,
+      "ratioY": 1024
     },
     {
       "world": "wrld_8211e461-afb7-4c67-b78f-74cab04f7af9",
       "ratioX": 1240,
       "ratioY": 1754
+    },
+    {
+      "ratioX": 764,
+      "ratioY": 1080
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
     }
   ],
-  "posterAtlas2": [
+  "posterAtlas3": [
     {
-      "world": "wrld_2132a25e-5bbd-467f-a0d1-8729fae1dced",
-      "group": "grp_a569bf8c-3fbe-4816-8a38-5ecc42a5987e",
-      "ratioX": 1470,
+      "group": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
+      "ratioX": 1448,
+      "ratioY": 2048
+    },
+    {
+      "group": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
+      "ratioX": 1448,
       "ratioY": 2048
     },
     {
@@ -35,35 +58,31 @@
       "ratioY": 2048
     },
     {
-      "group": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
-      "ratioX": 1448,
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas4": [
+    {
+      "world": "wrld_de3246fa-9eb4-4f0b-b626-6b2965fd8c68",
+      "group": "grp_77a215e3-f8d9-4d87-8f2d-b80edd6be765",
+      "ratioX": 1200,
+      "ratioY": 1697
+    },
+    {
+      "world": "wrld_807c0343-8891-448c-bacb-94b56478cb3d",
+      "ratioX": 1587,
+      "ratioY": 2245
+    },
+    {
+      "world": "wrld_2132a25e-5bbd-467f-a0d1-8729fae1dced",
+      "group": "grp_a569bf8c-3fbe-4816-8a38-5ecc42a5987e",
+      "ratioX": 1470,
       "ratioY": 2048
     },
     {
-      "ratioX": 764,
-      "ratioY": 1080
-    }
-  ],
-  "posterAtlas3": [
-    {
-      "world": "wrld_17777e91-3c5f-4079-9291-9b0cd3d636a1",
-      "ratioX": 1200,
-      "ratioY": 1800
-    },
-    {
-      "ratioX": 1080,
-      "ratioY": 1080
-    },
-    {
-      "group": "grp_66c9286a-ad97-48dd-b21c-1b64122ac4ff",
-      "ratioX": 1014,
-      "ratioY": 1434
-    },
-    {
-      "world": "wrld_5b435ff8-e5a5-46cc-bfea-285996d1bdc9",
-      "group": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
-      "ratioX": 1420,
-      "ratioY": 2000
+      "ratioX": 724,
+      "ratioY": 1024
     }
   ]
 }
