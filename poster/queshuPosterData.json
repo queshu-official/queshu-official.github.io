@@ -34,8 +34,9 @@
       "ratioY": 1754
     },
     {
-      "ratioX": 764,
-      "ratioY": 1080
+      "group": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
+      "ratioX": 724,
+      "ratioY": 1024
     },
     {
       "world": "wrld_dce914d1-0daf-43d2-b794-e085f4bb5bcb",
