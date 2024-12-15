@@ -25,13 +25,13 @@
   ],
   "posterAtlas2": [
     {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
       "world": "wrld_8211e461-afb7-4c67-b78f-74cab04f7af9",
       "ratioX": 1240,
       "ratioY": 1754
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
     },
     {
       "group": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
@@ -52,10 +52,6 @@
       "ratioY": 2048
     },
     {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
       "group": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
       "ratioX": 1448,
       "ratioY": 2048
@@ -64,9 +60,18 @@
       "group": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
       "ratioX": 1448,
       "ratioY": 2048
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
     }
   ],
   "posterAtlas4": [
+    {
+      "group": "grp_6f789c16-a36e-41b6-b7ee-77a884d1f544",
+      "ratioX": 1000,
+      "ratioY": 1414
+    },
     {
       "world": "wrld_de3246fa-9eb4-4f0b-b626-6b2965fd8c68",
       "group": "grp_77a215e3-f8d9-4d87-8f2d-b80edd6be765",
@@ -77,10 +82,6 @@
       "world": "wrld_807c0343-8891-448c-bacb-94b56478cb3d",
       "ratioX": 1587,
       "ratioY": 2245
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
     },
     {
       "world": "wrld_2132a25e-5bbd-467f-a0d1-8729fae1dced",
