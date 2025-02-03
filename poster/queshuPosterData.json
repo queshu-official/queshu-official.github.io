@@ -12,16 +12,21 @@
       "ratioY": 2000
     },
     {
+      "group": "grp_3e33cabd-f208-4eba-bca0-df7d3e24814f",
+      "ratioX": 3509,
+      "ratioY": 4961
+    },
+    {
       "group": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
       "ratioX": 789,
       "ratioY": 1080
-    },
-    {
-      "ratioX": 1200,
-      "ratioY": 1600
     }
   ],
   "posterAtlas2": [
+    {
+      "ratioX": 1200,
+      "ratioY": 1600
+    },
     {
       "ratioX": 724,
       "ratioY": 1024
@@ -36,14 +41,14 @@
       "world": "wrld_8211e461-afb7-4c67-b78f-74cab04f7af9",
       "ratioX": 1240,
       "ratioY": 1754
-    },
+    }
+  ],
+  "posterAtlas3": [
     {
       "group": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
       "ratioX": 724,
       "ratioY": 1024
-    }
-  ],
-  "posterAtlas3": [
+    },
     {
       "world": "wrld_dce914d1-0daf-43d2-b794-e085f4bb5bcb",
       "group": "grp_cc504798-7659-49e7-9ecc-41d199a563fb",
@@ -51,21 +56,21 @@
       "ratioY": 2245
     },
     {
-      "ratioX": 724,
-      "ratioY": 1024
-    },
-    {
       "group": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
       "ratioX": 1448,
       "ratioY": 2048
     },
     {
-      "group": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
-      "ratioX": 1448,
-      "ratioY": 2048
+      "ratioX": 724,
+      "ratioY": 1024
     }
   ],
   "posterAtlas4": [
+    {
+      "group": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
+      "ratioX": 1448,
+      "ratioY": 2048
+    },
     {
       "ratioX": 1191,
       "ratioY": 1684
@@ -74,10 +79,6 @@
       "group": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
       "ratioX": 1448,
       "ratioY": 2048
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
     },
     {
       "group": "grp_6f789c16-a36e-41b6-b7ee-77a884d1f544",
@@ -93,6 +94,10 @@
       "ratioY": 1697
     },
     {
+      "ratioX": 724,
+      "ratioY": 1024
+    },
+    {
       "world": "wrld_807c0343-8891-448c-bacb-94b56478cb3d",
       "ratioX": 1587,
       "ratioY": 2245
@@ -102,10 +107,6 @@
       "group": "grp_a569bf8c-3fbe-4816-8a38-5ecc42a5987e",
       "ratioX": 1470,
       "ratioY": 2048
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
     }
   ]
 }
