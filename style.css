@@ -1,0 +1,46 @@
+
+body {
+    background-image: url(queshu_visual.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #333333;
+}
+
+.title {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.block {
+    width: 75%;
+    height: auto;
+    background: rgba(244,245,247,0.67);
+    margin: 20px auto;
+    border-radius: 8px;
+}
+.menu {
+    width: 75%;
+    margin: -20px auto;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    padding-top: 1.15vw;
+    width: 25%;
+    height: 4vw;
+    border-radius: 8px;
+    background: rgba(244,245,247,0.67);
+    margin: 3% auto;
+    list-style: none;
+}
