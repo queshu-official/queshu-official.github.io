@@ -1,35 +1,48 @@
-
+﻿
 body {
+    font-family: "Meiryo UI", MeiryoUI, "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
     background-image: url(queshu_visual.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
-    top: 20%;
+    top: 12vh;
     left: 0;
     right: 0;
     text-align: center;
     color: #333333;
+    font-size: 1.25vw;
 }
 
-.title {
+#title {
     margin: 0 auto;
     width: 60%;
 }
 
-.block {
+.content {
     width: 75%;
+    margin: 20px auto;
+}
+
+.block {
     height: auto;
     background: rgba(244,245,247,0.67);
-    margin: 20px auto;
-    border-radius: 8px;
+    border-radius: 9999px;
 }
 .menu {
-    width: 75%;
-    margin: -20px auto;
+    margin: 0px auto;
     font-weight: bold;
 }
+.solo {
+    height: initial;
+    border-radius: 9999px;
+    background: rgba(244,245,247,0.67);
+    margin: 1% auto;
+    word-break: keep-all;
+    padding: 1.15vh;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -39,8 +52,41 @@ li {
     padding-top: 1.15vw;
     width: 25%;
     height: 4vw;
-    border-radius: 8px;
+    border-radius: 9999px;
     background: rgba(244,245,247,0.67);
-    margin: 3% auto;
+    margin: 1% auto;
     list-style: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #title {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .content {
+        font-size: 6vw;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    ul {
+        display: block;
+    }
+
+    li {
+        width: initial;
+        height: 8vh;
+        padding: 1.15vh;
+    }
+    .solo {
+        width: initial;
+        height: initial;
+        padding: 1.15vh;
+        font-size: 4vw;
+    }
+    .block {
+        font-size: 3vw;
+    }
 }
