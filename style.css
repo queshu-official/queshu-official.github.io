@@ -1,4 +1,7 @@
-﻿
+﻿html {
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
     font-family: "Meiryo UI", MeiryoUI, "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
     background-image: url(queshu_visual.png);
@@ -13,6 +16,7 @@ body {
     text-align: center;
     color: #333333;
     font-size: 1.25vw;
+
 }
 
 #title {
