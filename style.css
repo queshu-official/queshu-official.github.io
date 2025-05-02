@@ -99,8 +99,8 @@ li {
     .block {
         font-size: 3vw;
     }
-}
 
-_::-webkit-full-page-media, _:future, :root .solo {
-    font-size: 0.47em;
+    _::-webkit-full-page-media, _:future, :root .solo {
+        font-size: 0.47em;
+    }
 }
