@@ -59,12 +59,13 @@ li {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
 
     #title {
         margin: 0 auto;
         width: 90%;
     }
+
     .content {
         font-size: 6vw;
         width: 90%;
@@ -81,6 +82,7 @@ li {
         padding: 1.15vh;
         font-size: 0.9em;
     }
+
     .solo {
         border-radius: 9999px;
         background: rgba(244,245,247,0.67);
@@ -93,11 +95,12 @@ li {
         box-sizing: border-box;
         white-space: normal;
     }
+
     .block {
         font-size: 3vw;
     }
 }
 
 _::-webkit-full-page-media, _:future, :root .solo {
-    font-size: 0.3em;
+    font-size: 0.47em;
 }
