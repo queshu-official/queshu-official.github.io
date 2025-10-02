@@ -12,6 +12,18 @@
       "ratioY": 2000
     },
     {
+      "world": "wrld_b6adaa6d-fe29-4ed9-b4d1-9137a5bc9665",
+      "group": "grp_a480359b-01db-47dd-acbd-4261bd0b88d3",
+      "ratioX": 1024,
+      "ratioY": 1448
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas2": [
+    {
       "group": "grp_3e33cabd-f208-4eba-bca0-df7d3e24814f",
       "ratioX": 3509,
       "ratioY": 4961
@@ -20,9 +32,7 @@
       "group": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
       "ratioX": 786,
       "ratioY": 1080
-    }
-  ],
-  "posterAtlas2": [
+    },
     {
       "ratioX": 1200,
       "ratioY": 1600
@@ -30,7 +40,9 @@
     {
       "ratioX": 724,
       "ratioY": 1024
-    },
+    }
+  ],
+  "posterAtlas3": [
     {
       "world": "wrld_95d8e85b-d029-45ec-a278-a3e2e0ac3ff5",
       "group": "grp_1628482c-1ed2-403a-b0f4-fc0d41977dd7",
@@ -41,14 +53,18 @@
       "world": "wrld_8211e461-afb7-4c67-b78f-74cab04f7af9",
       "ratioX": 1240,
       "ratioY": 1754
-    }
-  ],
-  "posterAtlas3": [
+    },
     {
       "group": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
       "ratioX": 724,
       "ratioY": 1024
     },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas4": [
     {
       "world": "wrld_dce914d1-0daf-43d2-b794-e085f4bb5bcb",
       "group": "grp_cc504798-7659-49e7-9ecc-41d199a563fb",
@@ -61,16 +77,16 @@
       "ratioY": 2048
     },
     {
-      "ratioX": 724,
-      "ratioY": 1024
-    }
-  ],
-  "posterAtlas4": [
-    {
       "group": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
       "ratioX": 1448,
       "ratioY": 2048
     },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
+    }
+  ],
+  "posterAtlas5": [
     {
       "ratioX": 1191,
       "ratioY": 1684
@@ -84,18 +100,18 @@
       "group": "grp_6f789c16-a36e-41b6-b7ee-77a884d1f544",
       "ratioX": 1000,
       "ratioY": 1414
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
     }
   ],
-  "posterAtlas5": [
+  "posterAtlas6": [
     {
       "world": "wrld_de3246fa-9eb4-4f0b-b626-6b2965fd8c68",
       "group": "grp_77a215e3-f8d9-4d87-8f2d-b80edd6be765",
       "ratioX": 1200,
       "ratioY": 1697
-    },
-    {
-      "ratioX": 724,
-      "ratioY": 1024
     },
     {
       "world": "wrld_807c0343-8891-448c-bacb-94b56478cb3d",
@@ -107,6 +123,10 @@
       "group": "grp_a569bf8c-3fbe-4816-8a38-5ecc42a5987e",
       "ratioX": 1470,
       "ratioY": 2048
+    },
+    {
+      "ratioX": 724,
+      "ratioY": 1024
     }
   ]
 }
