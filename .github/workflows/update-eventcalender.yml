@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: fetch json
-        run: curl -L -o data.json https://script.google.com/macros/s/AKfycbxP3UepWrQIq730NWwUnItWtxeYue4fp-13JmmBQGS743uH0mtbz_Euja7qOwuHp46z/exec
+        run: curl -L -o qevcal.json https://script.google.com/macros/s/AKfycbxP3UepWrQIq730NWwUnItWtxeYue4fp-13JmmBQGS743uH0mtbz_Euja7qOwuHp46z/exec
 
       - name: commit if changed
         run: |
