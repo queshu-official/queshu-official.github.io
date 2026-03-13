@@ -1,0 +1,24 @@
+name: update-eventcalender
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: fetch json
+        run: curl -L -o data.json https://script.google.com/macros/s/AKfycbxP3UepWrQIq730NWwUnItWtxeYue4fp-13JmmBQGS743uH0mtbz_Euja7qOwuHp46z/exec
+
+      - name: commit if changed
+        run: |
+          git config user.name queshu-admin
+          git config user.email queshuofficial@gmail.com
+          git add qevcal.json
+          git diff --cached --quiet || git commit -m "update qevcal.json"
+          git push
