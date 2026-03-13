@@ -14,7 +14,7 @@
   },
   {
     "eventName": "Questコロニー",
-    "dayOfWeek": 16,
+    "dayOfWeek": 32,
     "biweekly": 0,
     "startTime": 2200,
     "endTime": 2300,
@@ -27,7 +27,7 @@
   },
   {
     "eventName": "#クエだべ クエ集でだべろう",
-    "dayOfWeek": 16,
+    "dayOfWeek": 32,
     "biweekly": 0,
     "startTime": 2100,
     "endTime": 2200,
@@ -40,7 +40,7 @@
   },
   {
     "eventName": "VRC初心者ワールドツアー",
-    "dayOfWeek": 8,
+    "dayOfWeek": 16,
     "biweekly": 0,
     "startTime": 2100,
     "endTime": 2200,
@@ -53,7 +53,7 @@
   },
   {
     "eventName": "Quest駆け出し集会",
-    "dayOfWeek": 2,
+    "dayOfWeek": 4,
     "biweekly": 0,
     "startTime": 2100,
     "endTime": 2200,
@@ -66,7 +66,7 @@
   },
   {
     "eventName": "#Quest初心者交流会",
-    "dayOfWeek": 32,
+    "dayOfWeek": 64,
     "biweekly": 0,
     "startTime": 2100,
     "endTime": 2200,
@@ -79,7 +79,7 @@
   },
   {
     "eventName": "#Quest初心者交流会",
-    "dayOfWeek": 64,
+    "dayOfWeek": 1,
     "biweekly": 4,
     "startTime": 2100,
     "endTime": 2200,
