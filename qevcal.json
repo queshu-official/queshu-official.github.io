@@ -13,6 +13,32 @@
     "information": ""
   },
   {
+    "eventName": "紅茶を飲む集会",
+    "dayOfWeek": 64,
+    "biweekly": 0,
+    "startTime": 1500,
+    "endTime": 1530,
+    "organizer": "Shifty6741,伊鷹いあ",
+    "joinMethod": 1,
+    "platform": 1,
+    "groupId": "",
+    "worldId": "wrld_8211e461-afb7-4c67-b78f-74cab04f7af9",
+    "information": ""
+  },
+  {
+    "eventName": "Quest Dance party Club（#QDC_VRC）",
+    "dayOfWeek": 4,
+    "biweekly": 0,
+    "startTime": 2040,
+    "endTime": 2330,
+    "organizer": "ねこたん",
+    "joinMethod": 5,
+    "platform": 1,
+    "groupId": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
+    "worldId": "",
+    "information": ""
+  },
+  {
     "eventName": "#クエだべ クエ集でだべろう",
     "dayOfWeek": 32,
     "biweekly": 0,
@@ -78,6 +104,19 @@
     "information": ""
   },
   {
+    "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
+    "dayOfWeek": 8,
+    "biweekly": 0,
+    "startTime": 2100,
+    "endTime": 2155,
+    "organizer": "heyhey_t",
+    "joinMethod": 4,
+    "platform": 1,
+    "groupId": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
+    "worldId": "",
+    "information": ""
+  },
+  {
     "eventName": "Questコロニー",
     "dayOfWeek": 32,
     "biweekly": 0,
@@ -88,6 +127,58 @@
     "platform": 1,
     "groupId": "",
     "worldId": "wrld_3f6f0b96-c638-408f-8d55-79df1fb3b1b6",
+    "information": ""
+  },
+  {
+    "eventName": "なすさんぽ",
+    "dayOfWeek": 8,
+    "biweekly": 0,
+    "startTime": 2200,
+    "endTime": 2300,
+    "organizer": "ティグリスタ",
+    "joinMethod": 3,
+    "platform": 1,
+    "groupId": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
+    "worldId": "",
+    "information": ""
+  },
+  {
+    "eventName": "裏盃喫茶大狼組Cosplay Cafe",
+    "dayOfWeek": 1,
+    "biweekly": 5,
+    "startTime": 2200,
+    "endTime": 2300,
+    "organizer": "HIMSAMAs",
+    "joinMethod": 3,
+    "platform": 1,
+    "groupId": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
+    "worldId": "",
+    "information": ""
+  },
+  {
+    "eventName": "セイオワプラネタリウム",
+    "dayOfWeek": 12,
+    "biweekly": 0,
+    "startTime": 2200,
+    "endTime": 2300,
+    "organizer": "-でるふ-",
+    "joinMethod": 4,
+    "platform": 1,
+    "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
+    "worldId": "wrld_5b435ff8-e5a5-46cc-bfea-285996d1bdc9",
+    "information": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。"
+  },
+  {
+    "eventName": "#Questラーメン集会",
+    "dayOfWeek": 0,
+    "biweekly": "",
+    "startTime": 2300,
+    "endTime": 0,
+    "organizer": "MIRAI＠",
+    "joinMethod": 3,
+    "platform": 1,
+    "groupId": "grp_cc504798-7659-49e7-9ecc-41d199a563fb",
+    "worldId": "wrld_dce914d1-0daf-43d2-b794-e085f4bb5bcb",
     "information": ""
   }
 ]
