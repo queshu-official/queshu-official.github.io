@@ -67,8 +67,8 @@
   {
     "eventName": "ゆるゆる書道集会",
     "dayOfWeek": 0,
-    "biweekly": "",
-    "dateInMonth": 10,
+    "biweekly": 0,
+    "dateInMonth": 22,
     "startTime": 1000,
     "endTime": 1045,
     "organizer": "なっつ★",
@@ -444,8 +444,8 @@
   {
     "eventName": "#Questラーメン集会",
     "dayOfWeek": 0,
-    "biweekly": "",
-    "dateInMonth": 11,
+    "biweekly": 0,
+    "dateInMonth": 21,
     "startTime": 2300,
     "endTime": 0,
     "organizer": "MIRAI＠",
