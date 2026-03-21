@@ -1,18 +1,5 @@
 [
   {
-    "eventName": "Questラジオ体操部",
-    "dayOfWeek": 127,
-    "biweekly": 0,
-    "startTime": 730,
-    "endTime": 800,
-    "organizer": "ぴゅあ吉@NOV360",
-    "joinMethod": 3,
-    "platform": 3,
-    "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
-    "worldId": "",
-    "information": ""
-  },
-  {
     "eventName": "VRC養命酒を飲む会",
     "dayOfWeek": 127,
     "biweekly": 0,
@@ -65,6 +52,19 @@
     "information": ""
   },
   {
+    "eventName": "Questラジオ体操部",
+    "dayOfWeek": 127,
+    "biweekly": 0,
+    "startTime": 730,
+    "endTime": 800,
+    "organizer": "ぴゅあ吉@NOV360",
+    "joinMethod": 3,
+    "platform": 3,
+    "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
+    "worldId": "",
+    "information": ""
+  },
+  {
     "eventName": "紅茶を飲む集会",
     "dayOfWeek": 64,
     "biweekly": 0,
@@ -104,28 +104,28 @@
     "information": ""
   },
   {
-    "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
-    "dayOfWeek": 8,
+    "eventName": "#クエだべ クエ集でだべろう",
+    "dayOfWeek": 32,
     "biweekly": 0,
     "startTime": 2100,
-    "endTime": 2155,
-    "organizer": "heyhey_t",
-    "joinMethod": 4,
-    "platform": 1,
-    "groupId": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
-    "worldId": "",
-    "information": ""
+    "endTime": 2200,
+    "organizer": "queshu_official / クエ集公式",
+    "joinMethod": 2,
+    "platform": 3,
+    "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
+    "worldId": "wrld_2eadff86-8d29-4697-a427-07010b491e0d",
+    "information": "テストほげほげ１２３"
   },
   {
-    "eventName": "#Quest初心者交流会",
-    "dayOfWeek": 1,
-    "biweekly": 4,
+    "eventName": "VRC初心者ワールドツアー",
+    "dayOfWeek": 16,
+    "biweekly": 0,
     "startTime": 2100,
     "endTime": 2200,
-    "organizer": "にゃ～の♪",
+    "organizer": "きりかぶ妖精のまる",
     "joinMethod": 5,
     "platform": 1,
-    "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
+    "groupId": "grp_66c9286a-ad97-48dd-b21c-1b64122ac4ff",
     "worldId": "",
     "information": ""
   },
@@ -143,32 +143,6 @@
     "information": ""
   },
   {
-    "eventName": "VRC初心者ワールドツアー",
-    "dayOfWeek": 16,
-    "biweekly": 0,
-    "startTime": 2100,
-    "endTime": 2200,
-    "organizer": "きりかぶ妖精のまる",
-    "joinMethod": 5,
-    "platform": 1,
-    "groupId": "grp_66c9286a-ad97-48dd-b21c-1b64122ac4ff",
-    "worldId": "",
-    "information": ""
-  },
-  {
-    "eventName": "#クエだべ クエ集でだべろう",
-    "dayOfWeek": 32,
-    "biweekly": 0,
-    "startTime": 2100,
-    "endTime": 2200,
-    "organizer": "queshu_official / クエ集公式",
-    "joinMethod": 2,
-    "platform": 3,
-    "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
-    "worldId": "wrld_2eadff86-8d29-4697-a427-07010b491e0d",
-    "information": "テストほげほげ１２３"
-  },
-  {
     "eventName": "#Quest初心者交流会",
     "dayOfWeek": 64,
     "biweekly": 0,
@@ -178,6 +152,32 @@
     "joinMethod": 5,
     "platform": 1,
     "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
+    "worldId": "",
+    "information": ""
+  },
+  {
+    "eventName": "#Quest初心者交流会",
+    "dayOfWeek": 1,
+    "biweekly": 4,
+    "startTime": 2100,
+    "endTime": 2200,
+    "organizer": "にゃ～の♪",
+    "joinMethod": 5,
+    "platform": 1,
+    "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
+    "worldId": "",
+    "information": ""
+  },
+  {
+    "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
+    "dayOfWeek": 8,
+    "biweekly": 0,
+    "startTime": 2100,
+    "endTime": 2155,
+    "organizer": "heyhey_t",
+    "joinMethod": 4,
+    "platform": 1,
+    "groupId": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
     "worldId": "",
     "information": ""
   },
@@ -195,16 +195,16 @@
     "information": ""
   },
   {
-    "eventName": "裏盃喫茶大狼組Cosplay Cafe",
-    "dayOfWeek": 1,
-    "biweekly": 5,
+    "eventName": "Questコロニー",
+    "dayOfWeek": 32,
+    "biweekly": 0,
     "startTime": 2200,
     "endTime": 2300,
-    "organizer": "HIMSAMAs",
-    "joinMethod": 3,
+    "organizer": "Questコロニー運営",
+    "joinMethod": 1,
     "platform": 1,
-    "groupId": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
-    "worldId": "",
+    "groupId": "",
+    "worldId": "wrld_3f6f0b96-c638-408f-8d55-79df1fb3b1b6",
     "information": ""
   },
   {
@@ -221,15 +221,15 @@
     "information": ""
   },
   {
-    "eventName": "万人酒場",
-    "dayOfWeek": 8,
-    "biweekly": 0,
+    "eventName": "裏盃喫茶大狼組Cosplay Cafe",
+    "dayOfWeek": 1,
+    "biweekly": 5,
     "startTime": 2200,
     "endTime": 2300,
-    "organizer": "chanpu",
-    "joinMethod": "",
+    "organizer": "HIMSAMAs",
+    "joinMethod": 3,
     "platform": 1,
-    "groupId": "grp_fd8d8bb2-e94e-416b-894e-11e24712314a",
+    "groupId": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
     "worldId": "",
     "information": ""
   },
@@ -245,32 +245,6 @@
     "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
     "worldId": "wrld_5b435ff8-e5a5-46cc-bfea-285996d1bdc9",
     "information": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。"
-  },
-  {
-    "eventName": "Questコロニー",
-    "dayOfWeek": 32,
-    "biweekly": 0,
-    "startTime": 2200,
-    "endTime": 2300,
-    "organizer": "Questコロニー運営",
-    "joinMethod": 1,
-    "platform": 1,
-    "groupId": "",
-    "worldId": "wrld_3f6f0b96-c638-408f-8d55-79df1fb3b1b6",
-    "information": ""
-  },
-  {
-    "eventName": "Bar_Etoilume",
-    "dayOfWeek": 32,
-    "biweekly": 0,
-    "startTime": 2200,
-    "endTime": 2300,
-    "organizer": "SEISO NO OWARI公式",
-    "joinMethod": 3,
-    "platform": 1,
-    "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
-    "worldId": "",
-    "information": ""
   },
   {
     "eventName": "Quest BAR NEKOMANMA",
@@ -295,6 +269,32 @@
     "joinMethod": "",
     "platform": 1,
     "groupId": "grp_77ed01e6-4f24-444c-8a84-1a270acd22bc",
+    "worldId": "",
+    "information": ""
+  },
+  {
+    "eventName": "万人酒場",
+    "dayOfWeek": 8,
+    "biweekly": 0,
+    "startTime": 2200,
+    "endTime": 2300,
+    "organizer": "chanpu",
+    "joinMethod": "",
+    "platform": 1,
+    "groupId": "grp_fd8d8bb2-e94e-416b-894e-11e24712314a",
+    "worldId": "",
+    "information": ""
+  },
+  {
+    "eventName": "Bar_Etoilume",
+    "dayOfWeek": 32,
+    "biweekly": 0,
+    "startTime": 2200,
+    "endTime": 2300,
+    "organizer": "SEISO NO OWARI公式",
+    "joinMethod": 3,
+    "platform": 1,
+    "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
     "worldId": "",
     "information": ""
   },
