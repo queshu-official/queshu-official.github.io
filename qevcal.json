@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-03-29 17:25:49",
+  "updateAt": "2026-03-29 17:38:17",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -27,6 +27,19 @@
       "platform": 1,
       "groupId": "grp_5d99573a-ed49-4ec3-97aa-880a7d9e0e7f",
       "information": ""
+    },
+    {
+      "eventName": "カルーアミルクでいいですか？",
+      "dayOfWeek": 127,
+      "biweekly": 0,
+      "dateInMonth": -1,
+      "startTime": 0,
+      "endTime": 200,
+      "organizer": "TatsuyaJp",
+      "joinMethod": 3,
+      "platform": 1,
+      "groupId": "grp_5a83f0e9-19c3-4e3e-8190-e16bf3f3e1af",
+      "information": "日によって開店時間が変動する場合があります。詳細はグループポストを参照。"
     },
     {
       "eventName": "Gun＆Cafe SilentShooter",
