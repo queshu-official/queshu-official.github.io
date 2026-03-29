@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-03-29 22:37:07",
+  "updateAt": "2026-03-30 04:37:05",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -297,7 +297,7 @@
       "endTime": 2200,
       "organizer": "queshu_official / クエ集公式",
       "joinMethod": 2,
-      "platform": 3,
+      "platform": 1,
       "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
       "information": ""
     },
@@ -575,6 +575,19 @@
       "information": "第一部：21:05～21:55 第二部：22:05~22:55"
     },
     {
+      "eventName": "日曜夜の持ち寄り朗読会",
+      "dayOfWeek": 1,
+      "biweekly": 0,
+      "dateInMonth": -1,
+      "startTime": 2140,
+      "endTime": 2300,
+      "organizer": "あさつき＿Asatsuki",
+      "joinMethod": 5,
+      "platform": 1,
+      "groupId": "",
+      "information": "21:40 開場、22:00 開始"
+    },
+    {
       "eventName": "Questコロニー",
       "dayOfWeek": 32,
       "biweekly": 0,
@@ -832,6 +845,19 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_bf730ea8-e603-419d-94c3-f35a316223fb",
+      "information": ""
+    },
+    {
+      "eventName": "集会所「月虹」",
+      "dayOfWeek": 127,
+      "biweekly": 0,
+      "dateInMonth": -1,
+      "startTime": 2200,
+      "endTime": 500,
+      "organizer": "レインボータイツマン",
+      "joinMethod": 3,
+      "platform": 3,
+      "groupId": "grp_bc939220-a5e6-4740-8942-ffc1c3d28f50",
       "information": ""
     },
     {
