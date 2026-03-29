@@ -16,12 +16,36 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: fetch json
-        run: curl -L -o qevcal.json https://script.google.com/macros/s/AKfycbxP3UepWrQIq730NWwUnItWtxeYue4fp-13JmmBQGS743uH0mtbz_Euja7qOwuHp46z/exec
+        run: curl -L -o new.json https://script.google.com/macros/s/AKfycbxP3UepWrQIq730NWwUnItWtxeYue4fp-13JmmBQGS743uH0mtbz_Euja7qOwuHp46z/exec
 
-      - name: commit if changed
+      - name: compare ignoring updateAt
+        id: diff
+        run: |
+          # updateAtを除去して比較用ファイル作成
+          jq 'del(.updateAt)' new.json > new_clean.json
+
+          if [ -f qevcal.json ]; then
+            jq 'del(.updateAt)' qevcal.json > old_clean.json
+          else
+            echo '{}' > old_clean.json
+          fi
+
+          # 差分チェック
+          if diff -q new_clean.json old_clean.json >/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: overwrite json
+        if: steps.diff.outputs.changed == 'true'
+        run: mv new.json qevcal.json
+
+      - name: commit
+        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name queshu-admin
           git config user.email queshuofficial@gmail.com
           git add qevcal.json
-          git diff --cached --quiet || git commit -m "update qevcal.json"
+          git commit -m "update qevcal.json"
           git push
