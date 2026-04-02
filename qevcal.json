@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-04-02 00:31:33",
+  "updateAt": "2026-04-03 04:52:24",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -991,34 +991,6 @@
       "endTime": 30,
       "organizer": "ブラックマジック",
       "joinMethod": 9,
-      "platform": 1,
-      "groupId": "",
-      "information": "",
-      "specialFlag": ""
-    },
-    {
-      "eventName": "テストイベントほげ",
-      "dayOfWeek": 127,
-      "biweekly": 0,
-      "dateInMonth": "",
-      "startTime": 2350,
-      "endTime": 2355,
-      "organizer": "テストイベントほげ",
-      "joinMethod": 3,
-      "platform": 1,
-      "groupId": "",
-      "information": "",
-      "specialFlag": ""
-    },
-    {
-      "eventName": "テストイベントほげ2",
-      "dayOfWeek": 127,
-      "biweekly": 0,
-      "dateInMonth": "",
-      "startTime": 2355,
-      "endTime": 0,
-      "organizer": "テストイベントほげ",
-      "joinMethod": 3,
       "platform": 1,
       "groupId": "",
       "information": "",
