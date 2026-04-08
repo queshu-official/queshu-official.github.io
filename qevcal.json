@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-04-08 22:06:34",
+  "updateAt": "2026-04-09 05:00:12",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -429,6 +429,19 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_77063614-00ea-4639-b851-99b770014121",
+      "information": ""
+    },
+    {
+      "eventName": "ワールド巡り交流所　「WANDERER」",
+      "dayOfWeek": 4,
+      "biweekly": 5,
+      "dateInMonth": "",
+      "startTime": 2200,
+      "endTime": 2300,
+      "organizer": "やくみネギ",
+      "joinMethod": 3,
+      "platform": 1,
+      "groupId": "grp_3755961a-da53-4596-9a29-ac238bcb1e88",
       "information": ""
     },
     {
