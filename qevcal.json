@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-04-11 04:48:41",
+  "updateAt": "2026-04-12 04:38:58",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -17,16 +17,16 @@
     },
     {
       "eventName": "cafe&gallery KING",
-      "dayOfWeek": 42,
+      "dayOfWeek": 0,
       "biweekly": 0,
-      "dateInMonth": "",
+      "dateInMonth": "毎週１～２回",
       "startTime": 0,
       "endTime": 200,
       "organizer": "抹茶キング",
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_5d99573a-ed49-4ec3-97aa-880a7d9e0e7f",
-      "information": ""
+      "information": "詳細は公式Ｘ@cafephoto_KING などを確認。"
     },
     {
       "eventName": "Gun＆Cafe SilentShooter",
@@ -75,7 +75,7 @@
       "startTime": 1500,
       "endTime": 1530,
       "organizer": "Shifty6741,伊鷹いあ",
-      "joinMethod": 1,
+      "joinMethod": 3,
       "platform": 1,
       "groupId": "",
       "information": ""
@@ -120,7 +120,7 @@
       "information": ""
     },
     {
-      "eventName": "メタバースソーラン/VRCソーラン節講座",
+      "eventName": "メタバースソーラン【ソーラン節エクササイズ!】",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
