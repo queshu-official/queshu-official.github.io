@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-04-09 05:00:12",
+  "updateAt": "2026-04-11 04:48:41",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -179,7 +179,7 @@
       "startTime": 2100,
       "endTime": 2200,
       "organizer": "きりかぶ妖精のまる",
-      "joinMethod": 5,
+      "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_66c9286a-ad97-48dd-b21c-1b64122ac4ff",
       "information": ""
