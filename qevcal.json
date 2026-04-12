@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-04-12 04:38:58",
+  "updateAt": "2026-04-13 04:41:55",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -156,19 +156,6 @@
       "joinMethod": 5,
       "platform": 1,
       "groupId": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
-      "information": ""
-    },
-    {
-      "eventName": "#クエだべ クエ集でだべろう",
-      "dayOfWeek": 32,
-      "biweekly": 0,
-      "dateInMonth": "",
-      "startTime": 2100,
-      "endTime": 2200,
-      "organizer": "queshu_official / クエ集公式",
-      "joinMethod": 2,
-      "platform": 1,
-      "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
       "information": ""
     },
     {
