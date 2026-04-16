@@ -1,22 +1,9 @@
 {
   "version": 1,
-  "updateAt": "2026-04-16 21:22:33",
+  "updateAt": "2026-04-16 21:24:47",
   "events": [
     {
-      "eventName": "ワールド巡り交流所　「WANDERER」",
-      "dayOfWeek": "",
-      "biweekly": "",
-      "dateInMonth": "",
-      "startTime": "",
-      "endTime": "",
-      "organizer": "",
-      "joinMethod": "",
-      "platform": "",
-      "groupId": "",
-      "information": ""
-    },
-    {
-      "eventName": "VRAF飛行機教習所",
+      "eventName": "VRC養命酒を飲む会",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
@@ -29,7 +16,7 @@
       "information": ""
     },
     {
-      "eventName": "Gun＆Cafe SilentShooter",
+      "eventName": "cafe&gallery KING",
       "dayOfWeek": 0,
       "biweekly": 0,
       "dateInMonth": "毎週１～２回",
@@ -42,7 +29,7 @@
       "information": "詳細は公式Ｘ@cafephoto_KING などを確認。"
     },
     {
-      "eventName": "Bar_Etoilume",
+      "eventName": "Gun＆Cafe SilentShooter",
       "dayOfWeek": 1,
       "biweekly": 0,
       "dateInMonth": "",
@@ -55,7 +42,7 @@
       "information": ""
     },
     {
-      "eventName": "万人酒場",
+      "eventName": "Barくえたん",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
@@ -68,7 +55,7 @@
       "information": ""
     },
     {
-      "eventName": "#クエだべ クエ集でだべろう",
+      "eventName": "Questラジオ体操部",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
@@ -81,7 +68,7 @@
       "information": ""
     },
     {
-      "eventName": "Quest Dance party Club（#QDC_VRC）",
+      "eventName": "紅茶を飲む集会",
       "dayOfWeek": 64,
       "biweekly": 0,
       "dateInMonth": "",
@@ -94,7 +81,7 @@
       "information": ""
     },
     {
-      "eventName": "cafe&gallery KING",
+      "eventName": "暇な時間帯にゲムワで遊びませんか？【＃暇ゲムワ】",
       "dayOfWeek": 65,
       "biweekly": 0,
       "dateInMonth": "",
@@ -107,7 +94,7 @@
       "information": "土日祝のいずれか開催。詳細はグループポストなどを確認。"
     },
     {
-      "eventName": "ちびっこラスベガス",
+      "eventName": "ゆるゆる書道集会",
       "dayOfWeek": 0,
       "biweekly": 0,
       "dateInMonth": 10,
@@ -120,7 +107,7 @@
       "information": ""
     },
     {
-      "eventName": "釣り堀barこいのぼり",
+      "eventName": "仮装学生集会",
       "dayOfWeek": 16,
       "biweekly": 10,
       "dateInMonth": "",
@@ -133,7 +120,7 @@
       "information": ""
     },
     {
-      "eventName": "世界を巡る者たち",
+      "eventName": "メタバースソーラン【ソーラン節エクササイズ!】",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
@@ -146,9 +133,9 @@
       "information": ""
     },
     {
-      "eventName": "スターソックス地球店",
+      "eventName": "雑談Bar「イケオジ」",
       "dayOfWeek": 69,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2030,
       "endTime": 2145,
@@ -159,7 +146,7 @@
       "information": ""
     },
     {
-      "eventName": "#Quest初心者交流会",
+      "eventName": "Quest Dance party Club（#QDC_VRC）",
       "dayOfWeek": 4,
       "biweekly": 0,
       "dateInMonth": "",
@@ -172,7 +159,20 @@
       "information": ""
     },
     {
-      "eventName": "Questコロニー",
+      "eventName": "#クエだべ クエ集でだべろう",
+      "dayOfWeek": 32,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2100,
+      "endTime": 2200,
+      "organizer": "queshu_official / クエ集公式",
+      "joinMethod": 2,
+      "platform": 1,
+      "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
+      "information": ""
+    },
+    {
+      "eventName": "VRC初心者ワールドツアー",
       "dayOfWeek": 16,
       "biweekly": 0,
       "dateInMonth": "",
@@ -185,7 +185,7 @@
       "information": ""
     },
     {
-      "eventName": "VRC初心者ワールドツアー",
+      "eventName": "Quest駆け出し集会",
       "dayOfWeek": 4,
       "biweekly": 0,
       "dateInMonth": "",
@@ -198,9 +198,9 @@
       "information": ""
     },
     {
-      "eventName": "Quest駆け出し集会",
+      "eventName": "#Quest初心者交流会",
       "dayOfWeek": 64,
-      "biweekly": 0,
+      "biweekly": 4,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -213,7 +213,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 1,
-      "biweekly": 4,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -224,7 +224,7 @@
       "information": ""
     },
     {
-      "eventName": "紅茶を飲む集会",
+      "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
       "dayOfWeek": 8,
       "biweekly": 0,
       "dateInMonth": "",
@@ -237,7 +237,7 @@
       "information": ""
     },
     {
-      "eventName": "Quest BAR NEKOMANMA",
+      "eventName": "VRAF飛行機教習所",
       "dayOfWeek": 16,
       "biweekly": 0,
       "dateInMonth": "",
@@ -250,7 +250,7 @@
       "information": ""
     },
     {
-      "eventName": "VRC手話べりの集い",
+      "eventName": "手話検定対策イベント",
       "dayOfWeek": 2,
       "biweekly": 0,
       "dateInMonth": "",
@@ -263,9 +263,9 @@
       "information": ""
     },
     {
-      "eventName": "手話検定対策イベント",
+      "eventName": "釣り堀barこいのぼり",
       "dayOfWeek": 32,
-      "biweekly": 0,
+      "biweekly": 10,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -276,7 +276,7 @@
       "information": ""
     },
     {
-      "eventName": "ゆるゆる書道集会",
+      "eventName": "Bar Southern Cross",
       "dayOfWeek": 1,
       "biweekly": 0,
       "dateInMonth": "",
@@ -289,7 +289,7 @@
       "information": "第一部：21:05～21:55 第二部：22:05~22:55"
     },
     {
-      "eventName": "Questラジオ体操部",
+      "eventName": "Questコロニー",
       "dayOfWeek": 32,
       "biweekly": 0,
       "dateInMonth": "",
@@ -302,9 +302,9 @@
       "information": ""
     },
     {
-      "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
+      "eventName": "なすさんぽ",
       "dayOfWeek": 8,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -315,9 +315,9 @@
       "information": ""
     },
     {
-      "eventName": "なすさんぽ",
+      "eventName": "裏盃喫茶大狼組Cosplay Cafe",
       "dayOfWeek": 1,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -328,7 +328,7 @@
       "information": ""
     },
     {
-      "eventName": "裏盃喫茶大狼組Cosplay Cafe",
+      "eventName": "セイオワプラネタリウム",
       "dayOfWeek": 12,
       "biweekly": 0,
       "dateInMonth": "",
@@ -341,7 +341,7 @@
       "information": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。"
     },
     {
-      "eventName": "#Questラーメン集会",
+      "eventName": "Quest BAR NEKOMANMA",
       "dayOfWeek": 64,
       "biweekly": 0,
       "dateInMonth": "",
@@ -354,7 +354,7 @@
       "information": ""
     },
     {
-      "eventName": "VRC養命酒を飲む会",
+      "eventName": "世界を巡る者たち",
       "dayOfWeek": 64,
       "biweekly": 0,
       "dateInMonth": "",
@@ -367,7 +367,7 @@
       "information": ""
     },
     {
-      "eventName": "メタバースソーラン【ソーラン節エクササイズ!】",
+      "eventName": "万人酒場",
       "dayOfWeek": 8,
       "biweekly": 0,
       "dateInMonth": "",
@@ -380,7 +380,7 @@
       "information": ""
     },
     {
-      "eventName": "Barくえたん",
+      "eventName": "Bar_Etoilume",
       "dayOfWeek": 32,
       "biweekly": 0,
       "dateInMonth": "",
@@ -393,7 +393,7 @@
       "information": ""
     },
     {
-      "eventName": "誰でも神絵師交流会",
+      "eventName": "ちびっこラスベガス",
       "dayOfWeek": 1,
       "biweekly": 0,
       "dateInMonth": "",
@@ -406,7 +406,7 @@
       "information": ""
     },
     {
-      "eventName": "Bar Southern Cross",
+      "eventName": "VRC手話べりの集い",
       "dayOfWeek": 2,
       "biweekly": 0,
       "dateInMonth": "",
@@ -419,9 +419,9 @@
       "information": ""
     },
     {
-      "eventName": "仮装学生集会",
+      "eventName": "スターソックス地球店",
       "dayOfWeek": 32,
-      "biweekly": 10,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -432,9 +432,9 @@
       "information": ""
     },
     {
-      "eventName": "雑談Bar「イケオジ」",
+      "eventName": "ワールド巡り交流所　「WANDERER」",
       "dayOfWeek": 4,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -445,7 +445,7 @@
       "information": ""
     },
     {
-      "eventName": "セイオワプラネタリウム",
+      "eventName": "#Questラーメン集会",
       "dayOfWeek": 0,
       "biweekly": 0,
       "dateInMonth": 11,
@@ -458,7 +458,7 @@
       "information": ""
     },
     {
-      "eventName": "暇な時間帯にゲムワで遊びませんか？【＃暇ゲムワ】",
+      "eventName": "誰でも神絵師交流会",
       "dayOfWeek": 16,
       "biweekly": 0,
       "dateInMonth": "",
