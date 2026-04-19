@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updateAt": "2026-04-11 04:48:41",
+  "updateAt": "2026-04-16 21:24:47",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -17,16 +17,16 @@
     },
     {
       "eventName": "cafe&gallery KING",
-      "dayOfWeek": 42,
+      "dayOfWeek": 0,
       "biweekly": 0,
-      "dateInMonth": "",
+      "dateInMonth": "毎週１～２回",
       "startTime": 0,
       "endTime": 200,
       "organizer": "抹茶キング",
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_5d99573a-ed49-4ec3-97aa-880a7d9e0e7f",
-      "information": ""
+      "information": "詳細は公式Ｘ@cafephoto_KING などを確認。"
     },
     {
       "eventName": "Gun＆Cafe SilentShooter",
@@ -75,7 +75,7 @@
       "startTime": 1500,
       "endTime": 1530,
       "organizer": "Shifty6741,伊鷹いあ",
-      "joinMethod": 1,
+      "joinMethod": 3,
       "platform": 1,
       "groupId": "",
       "information": ""
@@ -120,7 +120,7 @@
       "information": ""
     },
     {
-      "eventName": "メタバースソーラン/VRCソーラン節講座",
+      "eventName": "メタバースソーラン【ソーラン節エクササイズ!】",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
@@ -135,7 +135,7 @@
     {
       "eventName": "雑談Bar「イケオジ」",
       "dayOfWeek": 69,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2030,
       "endTime": 2145,
@@ -200,7 +200,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 64,
-      "biweekly": 0,
+      "biweekly": 4,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -213,7 +213,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 1,
-      "biweekly": 4,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -265,7 +265,7 @@
     {
       "eventName": "釣り堀barこいのぼり",
       "dayOfWeek": 32,
-      "biweekly": 0,
+      "biweekly": 10,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -304,7 +304,7 @@
     {
       "eventName": "なすさんぽ",
       "dayOfWeek": 8,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -317,7 +317,7 @@
     {
       "eventName": "裏盃喫茶大狼組Cosplay Cafe",
       "dayOfWeek": 1,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -421,7 +421,7 @@
     {
       "eventName": "スターソックス地球店",
       "dayOfWeek": 32,
-      "biweekly": 10,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -434,7 +434,7 @@
     {
       "eventName": "ワールド巡り交流所　「WANDERER」",
       "dayOfWeek": 4,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
