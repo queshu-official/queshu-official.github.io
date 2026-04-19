@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updateAt": "2026-04-16 21:24:47",
+  "version": 2,
+  "updateAt": "2026-04-20 01:20:47",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -13,7 +13,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_3e33cabd-f208-4eba-bca0-df7d3e24814f",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "cafe&gallery KING",
@@ -26,7 +27,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_5d99573a-ed49-4ec3-97aa-880a7d9e0e7f",
-      "information": "詳細は公式Ｘ@cafephoto_KING などを確認。"
+      "information": "",
+      "note": "詳細は公式Ｘ@cafephoto_KING などを確認。"
     },
     {
       "eventName": "Gun＆Cafe SilentShooter",
@@ -39,7 +41,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_0cf52e4b-49bc-42fb-9a98-155257384cc3",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "Barくえたん",
@@ -52,7 +55,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_33d45b7f-0025-492f-94de-6a412e30f547",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "Questラジオ体操部",
@@ -65,7 +69,8 @@
       "joinMethod": 3,
       "platform": 3,
       "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "紅茶を飲む集会",
@@ -78,7 +83,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "暇な時間帯にゲムワで遊びませんか？【＃暇ゲムワ】",
@@ -91,7 +97,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_5b1b6359-2d7e-4f2c-8d17-6215f202fa1e",
-      "information": "土日祝のいずれか開催。詳細はグループポストなどを確認。"
+      "information": "",
+      "note": "土日祝のいずれか開催。詳細はグループポストなどを確認。"
     },
     {
       "eventName": "ゆるゆる書道集会",
@@ -104,7 +111,8 @@
       "joinMethod": 2,
       "platform": 1,
       "groupId": "grp_69bf8a69-be35-433d-86d2-8fe5d535fb79",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "仮装学生集会",
@@ -117,7 +125,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_7f00b4df-b48a-4022-af20-81fa31a4b110",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "メタバースソーラン【ソーラン節エクササイズ!】",
@@ -130,7 +139,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_d3b55a85-1fbf-41de-bc6e-8bc745591859",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "雑談Bar「イケオジ」",
@@ -143,7 +153,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_760a31b7-1cf2-4e61-b27d-99ba6ccd399c",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "Quest Dance party Club（#QDC_VRC）",
@@ -156,7 +167,8 @@
       "joinMethod": 5,
       "platform": 1,
       "groupId": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "#クエだべ クエ集でだべろう",
@@ -169,7 +181,8 @@
       "joinMethod": 2,
       "platform": 1,
       "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "VRC初心者ワールドツアー",
@@ -182,7 +195,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_66c9286a-ad97-48dd-b21c-1b64122ac4ff",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "Quest駆け出し集会",
@@ -195,7 +209,8 @@
       "joinMethod": 2,
       "platform": 1,
       "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "#Quest初心者交流会",
@@ -208,7 +223,8 @@
       "joinMethod": 5,
       "platform": 1,
       "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "#Quest初心者交流会",
@@ -221,7 +237,8 @@
       "joinMethod": 5,
       "platform": 1,
       "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
@@ -234,7 +251,8 @@
       "joinMethod": 4,
       "platform": 1,
       "groupId": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "VRAF飛行機教習所",
@@ -247,7 +265,8 @@
       "joinMethod": 5,
       "platform": 1,
       "groupId": "",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "手話検定対策イベント",
@@ -260,7 +279,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_55712cfd-77ab-464f-8174-1483616c0c89",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "釣り堀barこいのぼり",
@@ -273,7 +293,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_fd0732fc-cd0c-4bc4-b4d1-bc3d868a2b48",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "Bar Southern Cross",
@@ -286,7 +307,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_e4a9dcd7-d8dd-4231-a3c1-aa17ad180884",
-      "information": "第一部：21:05～21:55 第二部：22:05~22:55"
+      "information": "",
+      "note": "第一部：21:05～21:55 第二部：22:05~22:55"
     },
     {
       "eventName": "Questコロニー",
@@ -299,7 +321,8 @@
       "joinMethod": 1,
       "platform": 1,
       "groupId": "",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "なすさんぽ",
@@ -312,7 +335,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "裏盃喫茶大狼組Cosplay Cafe",
@@ -325,7 +349,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "セイオワプラネタリウム",
@@ -338,7 +363,8 @@
       "joinMethod": 4,
       "platform": 1,
       "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
-      "information": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。"
+      "information": "",
+      "note": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。"
     },
     {
       "eventName": "Quest BAR NEKOMANMA",
@@ -351,7 +377,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_c29efd23-7be0-4b95-ab15-de22837c920f",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "世界を巡る者たち",
@@ -364,7 +391,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_77ed01e6-4f24-444c-8a84-1a270acd22bc",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "万人酒場",
@@ -377,7 +405,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_fd8d8bb2-e94e-416b-894e-11e24712314a",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "Bar_Etoilume",
@@ -390,7 +419,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "ちびっこラスベガス",
@@ -403,7 +433,8 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_0324747a-7fc4-4f92-b5f3-675c76b66283",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "VRC手話べりの集い",
@@ -416,7 +447,8 @@
       "joinMethod": 3,
       "platform": 3,
       "groupId": "grp_55712cfd-77ab-464f-8174-1483616c0c89",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "スターソックス地球店",
@@ -429,7 +461,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_77063614-00ea-4639-b851-99b770014121",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "ワールド巡り交流所　「WANDERER」",
@@ -442,7 +475,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_3755961a-da53-4596-9a29-ac238bcb1e88",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "#Questラーメン集会",
@@ -455,7 +489,8 @@
       "joinMethod": 3,
       "platform": 1,
       "groupId": "grp_cc504798-7659-49e7-9ecc-41d199a563fb",
-      "information": ""
+      "information": "",
+      "note": ""
     },
     {
       "eventName": "誰でも神絵師交流会",
@@ -468,7 +503,8 @@
       "joinMethod": 9,
       "platform": 1,
       "groupId": "",
-      "information": ""
+      "information": "",
+      "note": ""
     }
   ]
 }
