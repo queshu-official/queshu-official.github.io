@@ -520,7 +520,7 @@
      * of its weekday for the given date.
      *
      * biweekly bits:  bit0 = 1st, bit1 = 2nd, bit2 = 3rd, bit3 = 4th, bit4 = 5th
-     * occurrence = Math.ceil(date / 7) works for any weekday in any month.
+     * occurrence = Math.ceil(date.getUTCDate() / 7) works for any weekday in any month.
      */
     function isInCurrentWeek(biweekly, date) {
       if (!biweekly) return true; // 0 → every week
@@ -889,7 +889,7 @@
       // Platform
       const platformNames = [];
       if (event.platform & 1) platformNames.push('Android (Quest)');
-      if (event.platform & 2) platformNames.push('iOS (PC)');
+      if (event.platform & 2) platformNames.push('PC / iOS');
       html += detailRow('対応機種', esc(platformNames.join(' / ')));
 
       // GROUP_INSTANCE_NOTICE
