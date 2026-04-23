@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>QevCal ビューワー - クエ集イベントカレンダー</title>
+  <link rel="stylesheet" href="reset.css" />
+  <meta name="description" content="VRChatワールド「Quest日本集会場 (クエ集)」のイベントカレンダービューワーです。" />
+  <style>
+    /* ========== Base ========== */
+    body {
+      font-family: "Meiryo UI", MeiryoUI, "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic,
+        "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
+      background-image: url(queshu_visual.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      min-height: 100vh;
+      color: #333;
+      font-size: 14px;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ========== Header ========== */
+    .viewer-header {
+      background: rgba(244, 245, 247, 0.92);
+      backdrop-filter: blur(6px);
+      padding: 8px 14px 6px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    .header-logo { height: 32px; }
+
+    .header-title {
+      font-weight: bold;
+      font-size: 1em;
+      white-space: nowrap;
+    }
+
+    .current-datetime {
+      margin-left: auto;
+      font-size: 0.8em;
+      color: #666;
+      white-space: nowrap;
+    }
+
+    /* ========== Nav buttons ========== */
+    .nav-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .nav-btn {
+      padding: 4px 11px;
+      border-radius: 9999px;
+      background: rgba(244, 245, 247, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.18);
+      cursor: pointer;
+      font-size: 0.88em;
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-btn:hover { background: rgba(200, 220, 240, 0.9); }
+
+    .nav-btn.active {
+      background: #4a7fa5;
+      color: #fff;
+      border-color: #4a7fa5;
+    }
+
+    /* ========== Controls bar ========== */
+    .controls {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 6px 14px;
+      background: rgba(244, 245, 247, 0.78);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .platform-label { font-size: 0.82em; color: #666; }
+
+    .platform-toggles { display: flex; gap: 4px; }
+
+    .toggle-btn {
+      padding: 3px 10px;
+      border-radius: 9999px;
+      background: rgba(220, 225, 230, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      cursor: pointer;
+      font-size: 0.82em;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .toggle-btn.active {
+      background: #5a9050;
+      color: #fff;
+      border-color: #5a9050;
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 140px;
+      max-width: 280px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background: rgba(255, 255, 255, 0.85);
+      font-size: 0.88em;
+    }
+
+    .search-input:focus { outline: none; border-color: #4a7fa5; }
+
+    /* ========== Main layout ========== */
+    .viewer-main {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 10px;
+      padding: 10px;
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+
+    /* ========== Event list panel ========== */
+    .event-list-panel {
+      background: rgba(244, 245, 247, 0.78);
+      border-radius: 10px;
+      overflow-y: auto;
+      max-height: calc(100vh - 140px);
+    }
+
+    /* Section headers (開催中 / これから / 今日 / 明日) */
+    .section-header {
+      padding: 5px 12px;
+      font-size: 0.78em;
+      font-weight: bold;
+      background: rgba(190, 205, 220, 0.55);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+
+    .section-header.now    { color: #b33; background: rgba(255, 200, 200, 0.6); }
+    .section-header.upcoming { color: #864; background: rgba(255, 235, 150, 0.6); }
+    .section-header.today  { color: #448; background: rgba(190, 210, 255, 0.6); }
+    .section-header.tomorrow { color: #474; background: rgba(195, 235, 195, 0.6); }
+
+    /* Event item */
+    .event-item {
+      display: flex;
+      align-items: flex-start;
+      padding: 8px 12px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      cursor: pointer;
+      transition: background 0.12s;
+    }
+
+    .event-item:hover { background: rgba(180, 210, 235, 0.45); }
+    .event-item.selected { background: rgba(74, 127, 165, 0.22); }
+
+    .event-time {
+      font-size: 0.82em;
+      color: #555;
+      min-width: 88px;
+      margin-right: 8px;
+      padding-top: 2px;
+      white-space: nowrap;
+      line-height: 1.5;
+    }
+
+    .event-info { flex: 1; min-width: 0; }
+
+    .event-name {
+      font-size: 0.95em;
+      font-weight: bold;
+      line-height: 1.4;
+      word-break: break-all;
+    }
+
+    .event-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.78em;
+      color: #666;
+      margin-top: 2px;
+    }
+
+    .event-schedule { color: #558; }
+    .event-biweekly { color: #858; }
+
+    .platform-badges { display: flex; gap: 2px; }
+
+    .platform-badge {
+      font-size: 0.72em;
+      padding: 1px 5px;
+      border-radius: 9999px;
+      line-height: 1.4;
+    }
+
+    .platform-badge.android { background: rgba(80, 160, 80, 0.25); color: #363; }
+    .platform-badge.ios     { background: rgba(80, 100, 200, 0.25); color: #449; }
+
+    /* Empty / loading state */
+    .empty-state {
+      padding: 28px 20px;
+      text-align: center;
+      color: #888;
+      font-size: 0.9em;
+    }
+
+    /* ========== Detail panel ========== */
+    .detail-panel {
+      background: rgba(244, 245, 247, 0.88);
+      border-radius: 10px;
+      padding: 14px;
+      overflow-y: auto;
+      max-height: calc(100vh - 140px);
+      position: sticky;
+      top: 10px;
+      align-self: start;
+    }
+
+    .detail-close-btn {
+      display: none;
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      cursor: pointer;
+      font-size: 1.2em;
+      color: #888;
+      background: none;
+      border: none;
+    }
+
+    .detail-empty {
+      color: #aaa;
+      text-align: center;
+      padding: 28px 12px;
+      font-size: 0.88em;
+    }
+
+    .detail-event-name {
+      font-size: 1.05em;
+      font-weight: bold;
+      line-height: 1.5;
+      margin-bottom: 12px;
+      word-break: break-all;
+    }
+
+    .detail-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 7px;
+      font-size: 0.88em;
+    }
+
+    .detail-label {
+      color: #888;
+      min-width: 64px;
+      flex-shrink: 0;
+    }
+
+    .detail-value { flex: 1; word-break: break-all; }
+
+    .detail-notice {
+      margin-top: 10px;
+      padding: 8px 10px;
+      background: rgba(255, 220, 90, 0.3);
+      border-radius: 8px;
+      font-size: 0.82em;
+      color: #664;
+      border-left: 3px solid rgba(200, 160, 0, 0.5);
+    }
+
+    .detail-info {
+      margin-top: 10px;
+      padding: 8px 10px;
+      background: rgba(210, 225, 250, 0.35);
+      border-radius: 8px;
+      font-size: 0.82em;
+      color: #445;
+      line-height: 1.6;
+    }
+
+    .detail-note {
+      margin-top: 8px;
+      padding: 8px 10px;
+      background: rgba(210, 235, 210, 0.35);
+      border-radius: 8px;
+      font-size: 0.82em;
+      color: #464;
+      line-height: 1.6;
+    }
+
+    .group-link {
+      color: #4a7fa5;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+
+    .cross-midnight-note {
+      font-size: 0.8em;
+      color: #888;
+      margin-left: 4px;
+    }
+
+    /* ========== Update info ========== */
+    .update-info {
+      font-size: 0.75em;
+      color: #888;
+      text-align: right;
+      padding: 4px 14px 10px;
+    }
+
+    /* ========== Mobile ========== */
+    @media (max-width: 768px) {
+      body { font-size: 13px; }
+
+      .viewer-main {
+        grid-template-columns: 1fr;
+        padding: 6px;
+        gap: 0;
+      }
+
+      .event-list-panel {
+        border-radius: 10px 10px 0 0;
+        max-height: calc(100vh - 150px);
+      }
+
+      .detail-panel {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        max-height: 62vh;
+        border-radius: 14px 14px 0 0;
+        z-index: 200;
+        box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.25);
+        background: rgba(244, 245, 247, 0.97);
+        align-self: auto;
+        position: fixed;
+      }
+
+      .detail-panel.open { display: block; }
+
+      .detail-close-btn { display: block; }
+
+      .header-top { flex-wrap: wrap; }
+      .current-datetime { font-size: 0.75em; }
+
+      .controls { padding: 5px 10px; }
+      .search-input { max-width: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ========== Header ========== -->
+  <header class="viewer-header">
+    <div class="header-top">
+      <a href="./"><img class="header-logo" src="queshulogo_vector.svg" alt="Quest日本集会場" /></a>
+      <span class="header-title">イベントカレンダー</span>
+      <span class="current-datetime" id="currentDateTime"></span>
+    </div>
+    <nav class="nav-buttons" id="navButtons" role="navigation" aria-label="表示切替">
+      <button class="nav-btn active" data-view="daily">開催予定</button>
+      <button class="nav-btn" data-view="0">日</button>
+      <button class="nav-btn" data-view="1">月</button>
+      <button class="nav-btn" data-view="2">火</button>
+      <button class="nav-btn" data-view="3">水</button>
+      <button class="nav-btn" data-view="4">木</button>
+      <button class="nav-btn" data-view="5">金</button>
+      <button class="nav-btn" data-view="6">土</button>
+      <button class="nav-btn" data-view="none">その他</button>
+    </nav>
+  </header>
+
+  <!-- ========== Controls ========== -->
+  <div class="controls">
+    <span class="platform-label">プラットフォーム:</span>
+    <div class="platform-toggles">
+      <button class="toggle-btn active" id="toggleAndroid">Android</button>
+      <button class="toggle-btn active" id="toggleIOS">iOS</button>
+    </div>
+    <input type="search" class="search-input" id="searchInput"
+      placeholder="イベント名・主催者で検索…" autocomplete="off" />
+  </div>
+
+  <!-- ========== Main layout ========== -->
+  <div class="viewer-main">
+    <!-- Event list -->
+    <div class="event-list-panel" id="eventListPanel" role="list">
+      <div class="empty-state">読み込み中…</div>
+    </div>
+
+    <!-- Detail panel -->
+    <div class="detail-panel" id="detailPanel" role="complementary" aria-label="イベント詳細">
+      <button class="detail-close-btn" id="detailCloseBtn" aria-label="閉じる">✕</button>
+      <div class="detail-empty" id="detailEmpty">イベントを選択してください</div>
+      <div id="detailContent" hidden></div>
+    </div>
+  </div>
+
+  <div class="update-info" id="updateInfo"></div>
+
+  <!-- ========== Script ========== -->
+  <script>
+    /* ============================================================
+     * Constants  (mirroring QevCalEnums.cs)
+     * ============================================================ */
+
+    /** dayOfWeek bit index → JS getDay() value (0=Sun … 6=Sat) */
+    const DAY_NAMES = ['日', '月', '火', '水', '木', '金', '土'];
+    const ORDINALS  = ['一', '二', '三', '四', '五'];
+
+    /**
+     * joinMethod display labels.
+     * Values correspond to VRChat instance access types stored in qevcal.json.
+     */
+    const JOIN_METHOD_LABELS = {
+      1: 'パブリック',
+      2: 'グループ公開',
+      3: 'フレンド',
+      4: 'フレンド+',
+      5: 'グループ+',
+      6: 'グループ+公開',
+      7: 'グループ招待+',
+      8: 'グループ',
+      9: 'グループ招待'
+    };
+
+    /** joinMethod values that require group membership → show GROUP_INSTANCE_NOTICE */
+    const GROUP_JOIN_METHODS = new Set([2, 5, 6, 7, 8, 9]);
+
+    const GROUP_INSTANCE_NOTICE =
+      'このイベントの参加にはVRChatグループへの参加が必要な場合があります。' +
+      'グループIDのリンクからグループに加入してください。';
+
+    /* ============================================================
+     * Application state
+     * ============================================================ */
+
+    let allEvents    = [];   // raw event objects (augmented with _idx)
+    let currentView  = 'daily'; // 'daily' | '0'–'6' (JS day) | 'none'
+    let platformFilter = { android: true, ios: true };
+    let searchQuery  = '';
+    let selectedEventIdx = -1;
+    let updateAt     = '';
+
+    /* ============================================================
+     * Utility functions
+     * ============================================================ */
+
+    /**
+     * Return a Date whose UTC fields equal the current Japan Standard Time.
+     * Use getUTC*() methods on the returned object to get JST values.
+     */
+    function getJSTNow() {
+      return new Date(Date.now() + 9 * 3600 * 1000);
+    }
+
+    /** Convert HHMM integer to minutes from midnight (e.g. 2130 → 1290) */
+    function timeToMinutes(t) {
+      return Math.floor(t / 100) * 60 + (t % 100);
+    }
+
+    /** Format HHMM integer as "HH:MM" string */
+    function formatTime(t) {
+      const h = Math.floor(t / 100);
+      const m = t % 100;
+      return String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
+    }
+
+    /** Build "HH:MM〜HH:MM" (or "HH:MM〜" when endTime crosses midnight to 00:00) */
+    function formatTimeRange(event) {
+      const start = formatTime(event.startTime);
+      if (event.endTime === 0 && event.startTime > 0) {
+        return start + '〜';
+      }
+      return start + '〜' + formatTime(event.endTime);
+    }
+
+    /**
+     * Returns true when an event's end time is on the NEXT calendar day.
+     * Cases:
+     *   endTime > 0 && endTime < startTime   → e.g. 23:30–00:30
+     *   endTime === 0 && startTime > 0        → starts today, ends at exactly midnight
+     */
+    function isCrossMidnight(event) {
+      if (event.endTime > 0 && event.endTime < event.startTime) return true;
+      if (event.endTime === 0 && event.startTime > 0) return true;
+      return false;
+    }
+
+    /**
+     * IsInCurrentWeek (mirroring QevCalMain.IsInCurrentWeek):
+     * Returns true when the event's biweekly bitmask includes the occurrence
+     * of its weekday for the given date.
+     *
+     * biweekly bits:  bit0 = 1st, bit1 = 2nd, bit2 = 3rd, bit3 = 4th, bit4 = 5th
+     * occurrence = Math.ceil(date.getUTCDate() / 7) works for any weekday in any month.
+     */
+    function isInCurrentWeek(biweekly, date) {
+      if (!biweekly) return true; // 0 → every week
+      const occurrence = Math.ceil(date.getUTCDate() / 7); // 1–5
+      return (biweekly & (1 << (occurrence - 1))) !== 0;
+    }
+
+    /** True when the event's dayOfWeek bitmask includes jsDay (0=Sun…6=Sat) */
+    function hasDayBit(dayOfWeek, jsDay) {
+      return (dayOfWeek & (1 << jsDay)) !== 0;
+    }
+
+    /** Platform filter: show event if it runs on at least one enabled platform */
+    function matchesPlatform(event) {
+      // Both off → treat as "no filter"
+      if (!platformFilter.android && !platformFilter.ios) return true;
+      const hasAndroid = (event.platform & 1) !== 0;
+      const hasIOS     = (event.platform & 2) !== 0;
+      if (platformFilter.android && hasAndroid) return true;
+      if (platformFilter.ios     && hasIOS)     return true;
+      return false;
+    }
+
+    /** Search filter: match event name or organizer (case-insensitive) */
+    function matchesSearch(event) {
+      if (!searchQuery) return true;
+      const q = searchQuery.toLowerCase();
+      return event.eventName.toLowerCase().includes(q) ||
+             event.organizer.toLowerCase().includes(q);
+    }
+
+    /** Build day-of-week label string, e.g. "月・水・金" or "毎日" */
+    function getDayLabel(dayOfWeek) {
+      if (dayOfWeek === 127) return '毎日';
+      if (dayOfWeek === 0)   return '';
+      const days = [];
+      for (let i = 0; i < 7; i++) {
+        if (dayOfWeek & (1 << i)) days.push(DAY_NAMES[i]);
+      }
+      return days.join('・');
+    }
+
+    /** Build biweekly label, e.g. "第一・第三" */
+    function getBiweeklyLabel(biweekly) {
+      if (!biweekly) return '';
+      const weeks = [];
+      for (let i = 0; i < 5; i++) {
+        if (biweekly & (1 << i)) weeks.push('第' + ORDINALS[i]);
+      }
+      return weeks.join('・');
+    }
+
+    /* ============================================================
+     * Core filtering logic  (mirroring QevCalMain._SetDayOfWeek)
+     * ============================================================ */
+
+    /**
+     * GetStartedEvent: returns true when an event is currently in progress.
+     * Handles cross-midnight events:
+     *   - started today and still going (cross-midnight)
+     *   - started yesterday and hasn't ended yet today
+     *
+     * @param {object} event
+     * @param {number} nowMinutes  - current time in minutes from midnight (JST)
+     * @param {boolean} isYesterdayCheck - true when testing "started yesterday" path
+     */
+    function getStartedEvent(event, nowMinutes, isYesterdayCheck) {
+      const startMin = timeToMinutes(event.startTime);
+      const endMin   = timeToMinutes(event.endTime);
+
+      if (isYesterdayCheck) {
+        // Event started yesterday and crosses midnight into today
+        if (!isCrossMidnight(event)) return false;
+        // endTime === 0 → ended exactly at midnight (not in progress any more)
+        if (event.endTime === 0) return false;
+        return nowMinutes < endMin; // still running if we haven't reached endTime yet
+      }
+
+      if (isCrossMidnight(event)) {
+        // Started today, crosses midnight → in progress from startTime onwards
+        return nowMinutes >= startMin;
+      }
+
+      // Regular (same-day) event
+      if (event.endTime === 0 && event.startTime === 0) return false; // edge case
+      if (endMin === 0) return false; // shouldn't happen for same-day, but guard
+      return startMin <= nowMinutes && nowMinutes < endMin;
+    }
+
+    /**
+     * GetFilteredEvents: return events for a specific day-of-week tab.
+     * (mirroring QevCalMain.GetFilteredEvents for the day tabs)
+     */
+    function getFilteredEvents(jsDay) {
+      return allEvents.filter(event => {
+        if (!matchesPlatform(event)) return false;
+        if (!matchesSearch(event))   return false;
+        if (event.dayOfWeek === 0)   return false; // "none" only
+        return hasDayBit(event.dayOfWeek, jsDay);
+      }).sort((a, b) => a.startTime - b.startTime || a.eventName.localeCompare(b.eventName, 'ja'));
+    }
+
+    /** Get events for the その他 tab (dayOfWeek === 0) */
+    function getNoneEvents() {
+      return allEvents.filter(event => {
+        if (!matchesPlatform(event)) return false;
+        if (!matchesSearch(event))   return false;
+        return event.dayOfWeek === 0;
+      });
+    }
+
+    /**
+     * GetDailyEvents: categorise events for the 開催予定 (Daily) view.
+     * Returns { now, upcoming, today, tomorrow } arrays.
+     *
+     * Section definitions (mirroring QevCalColumn.cs headers):
+     *   NOW_STARTED → 開催中  : currently in progress
+     *   UPCOMING    → これから : starts within the next 60 minutes
+     *   TODAY       → 今日    : starts later today
+     *   TOMORROW    → 明日    : scheduled for tomorrow
+     */
+    function getDailyEvents(now) {
+      const nowMin     = now.getUTCHours() * 60 + now.getUTCMinutes();
+      const todayDow   = now.getUTCDay(); // 0=Sun … 6=Sat
+      const todayDate  = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+      const yestDate   = new Date(todayDate.getTime() - 86400000);
+      const tmrwDate   = new Date(todayDate.getTime() + 86400000);
+      const yestDow    = (todayDow + 6) % 7;
+      const tmrwDow    = (todayDow + 1) % 7;
+
+      const result = { now: [], upcoming: [], today: [], tomorrow: [] };
+
+      for (const event of allEvents) {
+        if (!matchesPlatform(event)) continue;
+        if (!matchesSearch(event))   continue;
+
+        /* ---- Does the event occur today? ---- */
+        let isToday    = false;
+        let isTomorrow = false;
+
+        if (event.dayOfWeek === 0) {
+          // Date-specific (dateInMonth) event
+          const dim = event.dateInMonth;
+          if (dim !== '' && dim !== null && dim !== undefined) {
+            const dimStr = String(dim);
+            const dates  = dimStr.split(',')
+              .map(s => parseInt(s.trim(), 10))
+              .filter(n => !isNaN(n));
+            if (dates.includes(todayDate.getUTCDate()))  isToday    = true;
+            if (dates.includes(tmrwDate.getUTCDate()))   isTomorrow = true;
+          }
+        } else {
+          if (hasDayBit(event.dayOfWeek, todayDow) && isInCurrentWeek(event.biweekly, todayDate)) {
+            isToday = true;
+          }
+          if (hasDayBit(event.dayOfWeek, tmrwDow) && isInCurrentWeek(event.biweekly, tmrwDate)) {
+            isTomorrow = true;
+          }
+        }
+
+        /* ---- Cross-midnight: started yesterday, still running today? ---- */
+        let isYestCross = false;
+        if (isCrossMidnight(event) && event.dayOfWeek !== 0) {
+          if (hasDayBit(event.dayOfWeek, yestDow) && isInCurrentWeek(event.biweekly, yestDate)) {
+            isYestCross = true;
+          }
+        }
+
+        /* ---- Categorise ---- */
+        const startMin = timeToMinutes(event.startTime);
+
+        // NOW_STARTED
+        const isNow = (isToday && getStartedEvent(event, nowMin, false)) ||
+                      (isYestCross && getStartedEvent(event, nowMin, true));
+
+        if (isNow) {
+          result.now.push(event);
+          continue;
+        }
+
+        // UPCOMING (starts within 60 min, only future today events)
+        if (isToday && startMin > nowMin && startMin - nowMin <= 60) {
+          result.upcoming.push(event);
+          continue;
+        }
+
+        // TODAY (future today events, not upcoming)
+        if (isToday && startMin > nowMin) {
+          result.today.push(event);
+          continue;
+        }
+
+        // TOMORROW
+        if (isTomorrow) {
+          result.tomorrow.push(event);
+        }
+      }
+
+      const sortFn = (a, b) => a.startTime - b.startTime ||
+        a.eventName.localeCompare(b.eventName, 'ja');
+      result.now.sort(sortFn);
+      result.upcoming.sort(sortFn);
+      result.today.sort(sortFn);
+      result.tomorrow.sort(sortFn);
+
+      return result;
+    }
+
+    /* ============================================================
+     * HTML helpers
+     * ============================================================ */
+
+    function esc(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function platformBadgesHtml(platform) {
+      const parts = [];
+      if (platform & 1) parts.push('<span class="platform-badge android">A</span>');
+      if (platform & 2) parts.push('<span class="platform-badge ios">i</span>');
+      return parts.length
+        ? '<span class="platform-badges">' + parts.join('') + '</span>'
+        : '';
+    }
+
+    /** Render a single event list item (mirroring QevCalColumn list cell) */
+    function renderEventItem(event) {
+      const dayLabel      = getDayLabel(event.dayOfWeek);
+      const biweeklyLabel = getBiweeklyLabel(event.biweekly);
+      const isSelected    = event._idx === selectedEventIdx ? ' selected' : '';
+
+      let scheduleHtml = '';
+      if (event.dayOfWeek !== 0) {
+        if (dayLabel)      scheduleHtml += '<span class="event-schedule">' + esc(dayLabel) + '</span>';
+        if (biweeklyLabel) scheduleHtml += '<span class="event-biweekly">(' + esc(biweeklyLabel) + ')</span>';
+      } else {
+        const dim = event.dateInMonth;
+        if (dim !== '' && dim !== null && dim !== undefined) {
+          const dimStr = String(dim);
+          const dimNum = parseInt(dimStr, 10);
+          const label  = !isNaN(dimNum) ? '毎月' + dimNum + '日' : dimStr;
+          scheduleHtml += '<span class="event-schedule">' + esc(label) + '</span>';
+        }
+      }
+
+      return '<div class="event-item' + isSelected + '" role="listitem" data-idx="' + event._idx + '">' +
+        '<div class="event-time">' + esc(formatTimeRange(event)) + '</div>' +
+        '<div class="event-info">' +
+          '<div class="event-name">' + esc(event.eventName) + '</div>' +
+          '<div class="event-meta">' +
+            scheduleHtml +
+            (event.organizer ? '<span>' + esc(event.organizer) + '</span>' : '') +
+            platformBadgesHtml(event.platform) +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    }
+
+    function renderSectionHeader(text, cls) {
+      return '<div class="section-header ' + cls + '">' + esc(text) + '</div>';
+    }
+
+    /* ============================================================
+     * View renderers
+     * ============================================================ */
+
+    function renderDailyView(grouped) {
+      let html = '';
+
+      if (grouped.now.length) {
+        html += renderSectionHeader('● 開催中', 'now');
+        grouped.now.forEach(e => { html += renderEventItem(e); });
+      }
+      if (grouped.upcoming.length) {
+        html += renderSectionHeader('◎ これから', 'upcoming');
+        grouped.upcoming.forEach(e => { html += renderEventItem(e); });
+      }
+      if (grouped.today.length) {
+        html += renderSectionHeader('○ 今日', 'today');
+        grouped.today.forEach(e => { html += renderEventItem(e); });
+      }
+      if (grouped.tomorrow.length) {
+        html += renderSectionHeader('◇ 明日', 'tomorrow');
+        grouped.tomorrow.forEach(e => { html += renderEventItem(e); });
+      }
+
+      if (!html) {
+        html = '<div class="empty-state">本日のイベントはありません</div>';
+      }
+      return html;
+    }
+
+    function renderDayView(jsDay) {
+      const events = getFilteredEvents(jsDay);
+      if (!events.length) {
+        return '<div class="empty-state">' + DAY_NAMES[jsDay] + '曜日のイベントはありません</div>';
+      }
+      return events.map(renderEventItem).join('');
+    }
+
+    function renderNoneView() {
+      const events = getNoneEvents();
+      if (!events.length) {
+        return '<div class="empty-state">その他のイベントはありません</div>';
+      }
+      return events.map(renderEventItem).join('');
+    }
+
+    /* ============================================================
+     * Detail panel  (mirroring QevCalOverview.cs)
+     * ============================================================ */
+
+    function renderDetail(event) {
+      const emptyEl   = document.getElementById('detailEmpty');
+      const contentEl = document.getElementById('detailContent');
+
+      if (!event) {
+        emptyEl.removeAttribute('hidden');
+        contentEl.setAttribute('hidden', '');
+        return;
+      }
+
+      emptyEl.setAttribute('hidden', '');
+      contentEl.removeAttribute('hidden');
+
+      const joinLabel  = JOIN_METHOD_LABELS[event.joinMethod] || ('方式 ' + event.joinMethod);
+      const isGroupType = GROUP_JOIN_METHODS.has(event.joinMethod);
+      const biweeklyLabel = getBiweeklyLabel(event.biweekly);
+      const crossMid   = isCrossMidnight(event);
+
+      let html = '<div class="detail-event-name">' + esc(event.eventName) + '</div>';
+
+      // Organizer
+      if (event.organizer) {
+        html += detailRow('主催者', esc(event.organizer));
+      }
+
+      // Time
+      let timeVal = esc(formatTimeRange(event));
+      if (crossMid) timeVal += '<span class="cross-midnight-note">（日付跨ぎ）</span>';
+      html += detailRow('時間', timeVal);
+
+      // Schedule
+      if (event.dayOfWeek !== 0) {
+        const dayLabel = getDayLabel(event.dayOfWeek);
+        let sched = esc(dayLabel);
+        if (biweeklyLabel) sched += ' <span style="color:#858">' + esc(biweeklyLabel) + '</span>';
+        html += detailRow('開催日', sched);
+      } else {
+        const dim = event.dateInMonth;
+        if (dim !== '' && dim !== null && dim !== undefined) {
+          const dimStr = String(dim);
+          const dimNum = parseInt(dimStr, 10);
+          const label  = !isNaN(dimNum) ? '毎月' + dimNum + '日' : esc(dimStr);
+          html += detailRow('開催日', label);
+        }
+      }
+
+      // Join method
+      html += detailRow('参加方法', esc(joinLabel));
+
+      // Platform
+      const platformNames = [];
+      if (event.platform & 1) platformNames.push('Android (Quest)');
+      if (event.platform & 2) platformNames.push('PC / iOS');
+      html += detailRow('対応機種', esc(platformNames.join(' / ')));
+
+      // GROUP_INSTANCE_NOTICE
+      if (isGroupType && event.groupId) {
+        html += '<div class="detail-notice">⚠ ' + esc(GROUP_INSTANCE_NOTICE) + '</div>';
+      }
+
+      // Group ID link
+      if (event.groupId) {
+        const groupUrl = 'https://vrchat.com/home/group/' + encodeURIComponent(event.groupId);
+        const linkHtml = '<a class="group-link" href="' + esc(groupUrl) +
+          '" target="_blank" rel="noopener noreferrer">' + esc(event.groupId) + '</a>';
+        html += detailRow('グループ', linkHtml);
+      }
+
+      // Information
+      if (event.information) {
+        html += '<div class="detail-info">' + esc(event.information) + '</div>';
+      }
+
+      // Note
+      if (event.note) {
+        html += '<div class="detail-note">📝 ' + esc(event.note) + '</div>';
+      }
+
+      contentEl.innerHTML = html;
+
+      // Open on mobile
+      document.getElementById('detailPanel').classList.add('open');
+    }
+
+    function detailRow(label, valueHtml) {
+      return '<div class="detail-row">' +
+        '<span class="detail-label">' + esc(label) + '</span>' +
+        '<span class="detail-value">' + valueHtml + '</span>' +
+        '</div>';
+    }
+
+    /* ============================================================
+     * Main render orchestrator
+     * ============================================================ */
+
+    function render() {
+      const now      = getJSTNow();
+      const listEl   = document.getElementById('eventListPanel');
+      let html       = '';
+
+      if (currentView === 'daily') {
+        html = renderDailyView(getDailyEvents(now));
+      } else if (currentView === 'none') {
+        html = renderNoneView();
+      } else {
+        html = renderDayView(parseInt(currentView, 10));
+      }
+
+      listEl.innerHTML = html;
+
+      // Attach click handlers
+      listEl.querySelectorAll('.event-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const idx = parseInt(el.dataset.idx, 10);
+          selectEvent(idx);
+        });
+      });
+
+      updateCurrentDateTime(now);
+    }
+
+    function selectEvent(idx) {
+      selectedEventIdx = idx;
+      const event = allEvents[idx];
+      renderDetail(event);
+
+      // Update selected class
+      document.querySelectorAll('.event-item').forEach(el => {
+        el.classList.toggle('selected', parseInt(el.dataset.idx, 10) === idx);
+      });
+    }
+
+    function closeDetail() {
+      document.getElementById('detailPanel').classList.remove('open');
+      selectedEventIdx = -1;
+      renderDetail(null);
+      document.querySelectorAll('.event-item.selected').forEach(el => el.classList.remove('selected'));
+    }
+
+    function updateCurrentDateTime(now) {
+      const el = document.getElementById('currentDateTime');
+      if (!el) return;
+      const y  = now.getUTCFullYear();
+      const mo = now.getUTCMonth() + 1;
+      const d  = now.getUTCDate();
+      const dow = DAY_NAMES[now.getUTCDay()];
+      const h  = String(now.getUTCHours()).padStart(2, '0');
+      const mi = String(now.getUTCMinutes()).padStart(2, '0');
+      el.textContent = y + '/' + mo + '/' + d + '(' + dow + ') ' + h + ':' + mi + ' JST';
+    }
+
+    /* ============================================================
+     * Data loading
+     * ============================================================ */
+
+    async function loadData() {
+      try {
+        const resp = await fetch('./qevcal.json');
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+
+        // Augment each event with a stable index
+        allEvents = (data.events || []).map((e, i) => Object.assign({}, e, { _idx: i }));
+        updateAt  = data.updateAt || '';
+
+        const updateEl = document.getElementById('updateInfo');
+        if (updateEl && updateAt) {
+          updateEl.textContent = '最終更新: ' + updateAt;
+        }
+
+        render();
+
+        // Refresh display every 60 seconds (re-render daily view for time categories)
+        setInterval(() => {
+          if (currentView === 'daily') render();
+          else updateCurrentDateTime(getJSTNow());
+        }, 60000);
+
+      } catch (err) {
+        document.getElementById('eventListPanel').innerHTML =
+          '<div class="empty-state">データの読み込みに失敗しました。<br>' + esc(String(err)) + '</div>';
+        console.error('QevCal load error:', err);
+      }
+    }
+
+    /* ============================================================
+     * Event listeners
+     * ============================================================ */
+
+    // Nav tab buttons
+    document.getElementById('navButtons').addEventListener('click', e => {
+      const btn = e.target.closest('.nav-btn');
+      if (!btn) return;
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentView = btn.dataset.view;
+      selectedEventIdx = -1;
+      renderDetail(null);
+      render();
+    });
+
+    // Platform toggles
+    document.getElementById('toggleAndroid').addEventListener('click', function () {
+      platformFilter.android = !platformFilter.android;
+      this.classList.toggle('active', platformFilter.android);
+      render();
+    });
+
+    document.getElementById('toggleIOS').addEventListener('click', function () {
+      platformFilter.ios = !platformFilter.ios;
+      this.classList.toggle('active', platformFilter.ios);
+      render();
+    });
+
+    // Search (debounced)
+    let searchTimer;
+    document.getElementById('searchInput').addEventListener('input', function () {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        searchQuery = this.value.trim();
+        render();
+      }, 200);
+    });
+
+    // Close detail panel (mobile)
+    document.getElementById('detailCloseBtn').addEventListener('click', closeDetail);
+
+    // Close detail when tapping backdrop on mobile
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeDetail();
+    });
+
+    /* ============================================================
+     * Bootstrap
+     * ============================================================ */
+    loadData();
+  </script>
+</body>
+
+</html>

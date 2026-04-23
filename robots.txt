@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /other/
 Disallow: /poster/
+Disallow: qevcal-viewer.html
