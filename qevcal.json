@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 1,
-  "updateAt": "2026-04-26 08:02:39",
+  "updateAt": "2026-04-26 08:39:59",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -154,6 +154,20 @@
       "joinMethod": 8,
       "platform": 1,
       "groupId": "grp_760a31b7-1cf2-4e61-b27d-99ba6ccd399c",
+      "information": "",
+      "note": ""
+    },
+    {
+      "eventName": "テストイベントですああああああああああああああああああああああああああああああ",
+      "dayOfWeek": 126,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2030,
+      "endTime": 2305,
+      "organizer": "テスト",
+      "joinMethod": 2,
+      "platform": 1,
+      "groupId": "",
       "information": "",
       "note": ""
     },
@@ -468,7 +482,7 @@
     {
       "eventName": "ワールド巡り交流所　「WANDERER」",
       "dayOfWeek": 4,
-      "biweekly": 0,
+      "biweekly": 23,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
