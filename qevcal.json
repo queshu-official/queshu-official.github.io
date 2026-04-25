@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 1,
-  "updateAt": "2026-04-25 15:21:24",
+  "updateAt": "2026-04-26 08:02:39",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -507,5 +507,6 @@
       "information": "",
       "note": ""
     }
-  ]
+  ],
+  "allowiosToggle": false
 }
