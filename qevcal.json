@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 1,
-  "updateAt": "2026-04-26 09:16:16",
+  "updateAt": "2026-04-26 09:31:24",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -146,7 +146,7 @@
     {
       "eventName": "雑談Bar「イケオジ」",
       "dayOfWeek": 69,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2030,
       "endTime": 2145,
@@ -160,7 +160,7 @@
     {
       "eventName": "テストイベントあああああああああああああああああああああああ",
       "dayOfWeek": 126,
-      "biweekly": 0,
+      "biweekly": 23,
       "dateInMonth": "",
       "startTime": 2030,
       "endTime": 2305,
@@ -230,7 +230,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 64,
-      "biweekly": 4,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -244,7 +244,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 1,
-      "biweekly": 0,
+      "biweekly": 4,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -300,7 +300,7 @@
     {
       "eventName": "釣り堀barこいのぼり",
       "dayOfWeek": 32,
-      "biweekly": 10,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -342,7 +342,7 @@
     {
       "eventName": "なすさんぽ",
       "dayOfWeek": 8,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -356,7 +356,7 @@
     {
       "eventName": "裏盃喫茶大狼組Cosplay Cafe",
       "dayOfWeek": 1,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -468,7 +468,7 @@
     {
       "eventName": "スターソックス地球店",
       "dayOfWeek": 32,
-      "biweekly": 0,
+      "biweekly": 10,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -482,7 +482,7 @@
     {
       "eventName": "ワールド巡り交流所　「WANDERER」",
       "dayOfWeek": 4,
-      "biweekly": 23,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
