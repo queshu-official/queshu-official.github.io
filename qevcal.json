@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 1,
-  "updateAt": "2026-04-26 08:39:59",
+  "updateAt": "2026-04-26 09:16:16",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -158,7 +158,7 @@
       "note": ""
     },
     {
-      "eventName": "テストイベントですああああああああああああああああああああああああああああああ",
+      "eventName": "テストイベントあああああああああああああああああああああああ",
       "dayOfWeek": 126,
       "biweekly": 0,
       "dateInMonth": "",
