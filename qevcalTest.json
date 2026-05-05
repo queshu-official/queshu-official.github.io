@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "updateAt": "2026-04-20 01:00:58",
+  "minorVersion": 1,
+  "updateAt": "2026-05-05 23:50:23",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -67,7 +68,7 @@
       "endTime": 800,
       "organizer": "ぴゅあ吉@NOV360",
       "joinMethod": 3,
-      "platform": 3,
+      "platform": 1,
       "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
       "information": "",
       "note": ""
@@ -145,7 +146,7 @@
     {
       "eventName": "雑談Bar「イケオジ」",
       "dayOfWeek": 69,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2030,
       "endTime": 2145,
@@ -179,10 +180,10 @@
       "endTime": 2200,
       "organizer": "queshu_official / クエ集公式",
       "joinMethod": 2,
-      "platform": 1,
+      "platform": 3,
       "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
-      "information": "テストtext１２３４",
-      "note": "ほげほげふがふが"
+      "information": "Androidユーザー向け初心者歓迎ノーテーマ雑談イベントです。公式グループパブリックインスタンスにて開催。詳細は公式X(Twitter) @queshu_officialをご確認ください。",
+      "note": "Android対応アバターの利用を必須となります。iOS対応の有無は任意です。"
     },
     {
       "eventName": "VRC初心者ワールドツアー",
@@ -215,7 +216,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 64,
-      "biweekly": 4,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -229,7 +230,7 @@
     {
       "eventName": "#Quest初心者交流会",
       "dayOfWeek": 1,
-      "biweekly": 0,
+      "biweekly": 4,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -285,7 +286,7 @@
     {
       "eventName": "釣り堀barこいのぼり",
       "dayOfWeek": 32,
-      "biweekly": 10,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
@@ -327,7 +328,7 @@
     {
       "eventName": "なすさんぽ",
       "dayOfWeek": 8,
-      "biweekly": 5,
+      "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -341,7 +342,7 @@
     {
       "eventName": "裏盃喫茶大狼組Cosplay Cafe",
       "dayOfWeek": 1,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -453,7 +454,7 @@
     {
       "eventName": "スターソックス地球店",
       "dayOfWeek": 32,
-      "biweekly": 0,
+      "biweekly": 10,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -467,7 +468,7 @@
     {
       "eventName": "ワールド巡り交流所　「WANDERER」",
       "dayOfWeek": 4,
-      "biweekly": 0,
+      "biweekly": 5,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
@@ -506,5 +507,6 @@
       "information": "",
       "note": ""
     }
-  ]
+  ],
+  "allowiosToggle": false
 }
