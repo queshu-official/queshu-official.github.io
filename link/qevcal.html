@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        const destination = "https://docs.google.com/forms/d/e/1FAIpQLSe7cLKKYuWDoBHG7kb97TLJ5bACBJdie15sHQReQ4hKq0WoZQ/viewform";
+
+    const current = new URL(window.location.href);
+    const target = new URL(destination);
+
+    // クエリパラメータ転送
+    current.searchParams.forEach((value, key) => {
+      target.searchParams.set(key, value);
+    });
+
+    window.location.replace(target.toString());
+    </script>
+</head>
+<body>
+    Redirecting...
+</body>
+</html>
