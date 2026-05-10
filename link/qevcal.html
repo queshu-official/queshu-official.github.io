@@ -1,22 +1,25 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <script>
+  <meta charset="utf-8">
+  <script>
+    const destination =
         const destination = "https://docs.google.com/forms/d/e/1FAIpQLSe7cLKKYuWDoBHG7kb97TLJ5bACBJdie15sHQReQ4hKq0WoZQ/viewform";
 
     const current = new URL(window.location.href);
     const target = new URL(destination);
 
-    // クエリパラメータ転送
-    current.searchParams.forEach((value, key) => {
-      target.searchParams.set(key, value);
-    });
+    // n -> entry.1887576780 縺ｫ螟画鋤
+    const n = current.searchParams.get("n");
+
+    if (n) {
+      target.searchParams.set("entry.1887576780", n);
+    }
 
     window.location.replace(target.toString());
-    </script>
+  </script>
 </head>
 <body>
-    Redirecting...
+  Redirecting...
 </body>
 </html>
