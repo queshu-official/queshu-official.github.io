@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-11 05:00:23",
+  "updateAt": "2026-05-12 00:09:55",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -52,7 +52,7 @@
       "dateInMonth": "",
       "startTime": 100,
       "endTime": 200,
-      "organizer": "まっしゅ",
+      "organizer": "かもみーる",
       "joinMethod": 8,
       "platform": 5,
       "groupId": "grp_33d45b7f-0025-492f-94de-6a412e30f547",
@@ -136,7 +136,7 @@
       "dateInMonth": "",
       "startTime": 2030,
       "endTime": 2145,
-      "organizer": "こいし好き",
+      "organizer": "飛燕_HIEN",
       "joinMethod": 8,
       "platform": 5,
       "groupId": "grp_760a31b7-1cf2-4e61-b27d-99ba6ccd399c",
@@ -262,7 +262,7 @@
       "dateInMonth": "",
       "startTime": 2100,
       "endTime": 2200,
-      "organizer": "Ayappii",
+      "organizer": "ユウ_h",
       "joinMethod": 3,
       "platform": 5,
       "groupId": "grp_55712cfd-77ab-464f-8174-1483616c0c89",
