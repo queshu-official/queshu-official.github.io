@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-06 01:21:19",
+  "updateAt": "2026-05-11 05:00:23",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -100,20 +100,6 @@
       "groupId": "grp_5b1b6359-2d7e-4f2c-8d17-6215f202fa1e",
       "information": "",
       "note": "土日祝のいずれか開催。詳細はグループポストなどを確認。"
-    },
-    {
-      "eventName": "ゆるゆる書道集会",
-      "dayOfWeek": 0,
-      "biweekly": 0,
-      "dateInMonth": 10,
-      "startTime": 2000,
-      "endTime": 2045,
-      "organizer": "なっつ★",
-      "joinMethod": 2,
-      "platform": 5,
-      "groupId": "grp_69bf8a69-be35-433d-86d2-8fe5d535fb79",
-      "information": "",
-      "note": ""
     },
     {
       "eventName": "仮装学生集会",
@@ -434,6 +420,20 @@
       "joinMethod": 8,
       "platform": 5,
       "groupId": "grp_0324747a-7fc4-4f92-b5f3-675c76b66283",
+      "information": "",
+      "note": ""
+    },
+    {
+      "eventName": "ゆるゆる書道集会",
+      "dayOfWeek": 0,
+      "biweekly": 0,
+      "dateInMonth": 10,
+      "startTime": 2200,
+      "endTime": 2245,
+      "organizer": "なっつ★",
+      "joinMethod": 2,
+      "platform": 5,
+      "groupId": "grp_69bf8a69-be35-433d-86d2-8fe5d535fb79",
       "information": "",
       "note": ""
     },
