@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-12 00:09:55",
+  "updateAt": "2026-05-13 04:56:38",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -396,18 +396,18 @@
       "note": ""
     },
     {
-      "eventName": "Bar_Etoilume",
+      "eventName": "星空とオリジナルカクテルが楽しめる Bar Etoilume from SEISO NO OWARI",
       "dayOfWeek": 32,
       "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
       "endTime": 2300,
-      "organizer": "SEISO NO OWARI公式",
+      "organizer": "せいそのわ",
       "joinMethod": 3,
-      "platform": 5,
+      "platform": 7,
       "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
-      "information": "",
-      "note": ""
+      "information": "輝く夜空の星と、メンバーが作るオリジナルカクテルが楽しめるバーイベントです。注文によってはお客様のお好みに合わせておつくりいたします。メンバーとの会話を楽しむも良し。ご友人とカクテルを楽しむも良し。\n\n毎週金曜22～23時オープンです。",
+      "note": "基本的にPC・Android・ios対応ですが、当日のイベント内容によりPCOnlyとなる日もございます。詳細はSEISO NO OWARI公式Xをご確認ください。"
     },
     {
       "eventName": "ちびっこラスベガス",
