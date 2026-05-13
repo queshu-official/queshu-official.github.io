@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-13 04:56:38",
+  "updateAt": "2026-05-14 03:53:33",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -30,6 +30,20 @@
       "groupId": "grp_5d99573a-ed49-4ec3-97aa-880a7d9e0e7f",
       "information": "",
       "note": "詳細は公式Ｘ@cafephoto_KING などを確認。"
+    },
+    {
+      "eventName": "カルーアミルクでいいですか？",
+      "dayOfWeek": 127,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 0,
+      "endTime": 200,
+      "organizer": "TatsuyaJp",
+      "joinMethod": 3,
+      "platform": 5,
+      "groupId": "grp_5a83f0e9-19c3-4e3e-8190-e16bf3f3e1af",
+      "information": "『おだやかな空間とカルーアミルクを』をテーマとした、雑談も無言も作業も歓迎！なカクテルバーイベントです。\nカルーアミルクを用意して、お待ちしております！",
+      "note": ""
     },
     {
       "eventName": "Gun＆Cafe SilentShooter",
@@ -72,6 +86,20 @@
       "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
       "information": "",
       "note": ""
+    },
+    {
+      "eventName": "研究室カフェ",
+      "dayOfWeek": 8,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 1300,
+      "endTime": 1500,
+      "organizer": "ぱいんてーる",
+      "joinMethod": 4,
+      "platform": 5,
+      "groupId": "grp_0863d0cf-339a-4ce5-9e68-29860a923c5b",
+      "information": "自由に雑談や交流を楽しめる、まったり系イベントです。平日のお昼、少しだけ息抜きしませんか？",
+      "note": "イベントの感想などはハッシュタグ #研フェ をつけてpostしてください！"
     },
     {
       "eventName": "紅茶を飲む集会",
