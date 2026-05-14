@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-14 03:53:33",
+  "updateAt": "2026-05-15 05:39:03",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -506,6 +506,20 @@
       "groupId": "grp_3755961a-da53-4596-9a29-ac238bcb1e88",
       "information": "",
       "note": ""
+    },
+    {
+      "eventName": "集会所「月虹」",
+      "dayOfWeek": 127,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2200,
+      "endTime": 0,
+      "organizer": "レインボータイツマン",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_bc939220-a5e6-4740-8942-ffc1c3d28f50",
+      "information": "このイベントは雑談集会所です\nほぼ毎日、22時から開いていていろんな人が集まってくる場所であり見送る場所です\nVRChatを始めてからどこに行けばいいかわからない\nとりあえず話だけでも聞きたい\nそんな初心者さんも歓迎します\n是非お一人でもフレンドと一緒でも遊びに来てください",
+      "note": "グループの注意事項は読んでおいてくれると助かります"
     },
     {
       "eventName": "#Questラーメン集会",
