@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-15 05:39:03",
+  "updateAt": "2026-05-17 05:03:35",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -60,18 +60,18 @@
       "note": ""
     },
     {
-      "eventName": "Barくえたん",
+      "eventName": "BAR くえたん",
       "dayOfWeek": 127,
       "biweekly": 0,
       "dateInMonth": "",
       "startTime": 100,
       "endTime": 200,
       "organizer": "かもみーる",
-      "joinMethod": 8,
+      "joinMethod": 3,
       "platform": 5,
       "groupId": "grp_33d45b7f-0025-492f-94de-6a412e30f547",
-      "information": "",
-      "note": ""
+      "information": "クエスト単機の方が多く集う、Android勢の方も安心してご来店いただけるBarイベントです。\n詳細はグループ内の概要や公式Xをご確認ください。",
+      "note": "Android対応アバター(サンプル可)必須です。\n注意事項などをよくお読みの上インスタンスにjoinしてください。"
     },
     {
       "eventName": "Questラジオ体操部",
