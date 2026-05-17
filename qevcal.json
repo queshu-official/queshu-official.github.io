@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 2,
-  "updateAt": "2026-05-17 22:20:07",
+  "updateAt": "2026-05-17 22:22:46",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -564,5 +564,6 @@
       "note": ""
     }
   ],
-  "allowiosToggle": false
+  "allowiosToggle": false,
+  "credit": "<b><size=120%>・クレジット</size></b>\r\n\r\n＜クエ集運営チーム＞\r\n・Udonギミック制作・GAS/GA環境構築\r\nヒルヒル\r\n\r\n＜必要アセット＞\r\n・GenericDataContainer (koyashiro's vpm repos) \r\n（https://github.com/koyashiro/vpm-repos）  \r\nKoyashiro\r\n\r\n＜Special Thanks＞\r\n・旧「Quest(Android)対応定期イベントポスター」制作\r\nSaguzi"
 }
