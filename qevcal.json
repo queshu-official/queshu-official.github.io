@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "minorVersion": 2,
-  "updateAt": "2026-05-17 05:03:35",
+  "minorVersion": 3,
+  "updateAt": "2026-05-17 22:37:00",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -100,6 +100,20 @@
       "groupId": "grp_0863d0cf-339a-4ce5-9e68-29860a923c5b",
       "information": "自由に雑談や交流を楽しめる、まったり系イベントです。平日のお昼、少しだけ息抜きしませんか？",
       "note": "イベントの感想などはハッシュタグ #研フェ をつけてpostしてください！"
+    },
+    {
+      "eventName": "Cafeうさぎ「日本人向け：ともつく」",
+      "dayOfWeek": 64,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 1300,
+      "endTime": 1430,
+      "organizer": "＊紫陽_なつ＊",
+      "joinMethod": 4,
+      "platform": 7,
+      "groupId": "grp_2a6b7e51-2455-492b-b590-1ce61145c81a",
+      "information": "日本人向けの集会です。遊んだりお喋りして友達を増やそう！\n初見さんが参加しやすい雑談イベントです！\nベテランさんも是非おいでくださいませ～\ngroup加入申請は、なるべく営業時間前までに申請お願いします\n(イベント中ですと対応できない場合があります）ご了承ください",
+      "note": "イベントの性質上　日本語の自己紹介の、記載をお願い致します。（日本人であることの判断できませんとGroup参加申請お受けできません）エックス(旧Twitter)リンク〇　判断情報少✖　英語のみプロフ✖　"
     },
     {
       "eventName": "紅茶を飲む集会",
@@ -550,5 +564,6 @@
       "note": ""
     }
   ],
-  "allowiosToggle": false
+  "allowiosToggle": false,
+  "credit": "<b><size=120%>・クレジット</size></b>\r\n\r\n＜クエ集運営チーム＞\r\n・Udonギミック制作・GAS/GA環境構築\r\nヒルヒル\r\n\r\n＜必要アセット＞\r\n・GenericDataContainer (koyashiro's vpm repos) \r\n（https://github.com/koyashiro/vpm-repos）  \r\nKoyashiro\r\n\r\n＜Special Thanks＞\r\n・旧「Quest(Android)対応定期イベントポスター」制作\r\nSaguzi"
 }
