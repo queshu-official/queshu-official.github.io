@@ -549,11 +549,6 @@
       "information": "",
       "note": ""
     },
-    {
-      "version": 2,
-      "minorVersion": 2,
-      "updateAt": "2026-05-17 05:03:35",
-      "events": [
         {
           "eventName": "VRC養命酒を飲む会",
           "dayOfWeek": 127,
@@ -2093,9 +2088,7 @@
           "groupId": "",
           "information": "",
           "specialFlag": ""
-        }
-      ],
-      "allowiosToggle": false
+        
     }
   ],
   "allowiosToggle": false
