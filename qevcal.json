@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-05-17 22:37:00",
+  "updateAt": "2026-05-18 05:06:12",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -211,7 +211,7 @@
       "platform": 7,
       "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
       "information": "Androidユーザー向け初心者歓迎ノーテーマ雑談イベントです。公式グループパブリックインスタンスにて開催。詳細は公式X(Twitter) @queshu_officialをご確認ください。",
-      "note": "Android対応アバターの利用を必須となります。iOS対応の有無は任意です。"
+      "note": "Android対応アバターの利用が必須となります。iOS対応の有無は任意です。"
     },
     {
       "eventName": "VRC初心者ワールドツアー",
