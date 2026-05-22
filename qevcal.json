@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-05-18 05:06:12",
+  "updateAt": "2026-05-23 05:43:55",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -324,6 +324,20 @@
       "groupId": "grp_fd0732fc-cd0c-4bc4-b4d1-bc3d868a2b48",
       "information": "",
       "note": ""
+    },
+    {
+      "eventName": "CafeLibra",
+      "dayOfWeek": 4,
+      "biweekly": 5,
+      "dateInMonth": "",
+      "startTime": 2100,
+      "endTime": 2200,
+      "organizer": "結月-ゆずき-",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_e4ca5c54-58ba-4b6a-a363-a246ecd71c18",
+      "information": "心のバランスを整える夜のchillCafe。\n喋りたい人、作業の片手間、のんびりしたい方\nどんな方でも大丈夫です。\nお客様にとって幸せな時間が過ごせますように。\n\n\n詳細は公式X(Twitter)\n@VRC_CafeLibraをご確認ください。",
+      "note": "参加条件（モデル、人数制限など）\n\n・ダウンロード容量50MB以下の軽いアバターでのご来店。\n・勧誘、迷惑行為禁止 。\n・R18、武器、過度なパーティクル等があるアバターの使用禁止 。\n ・原則配信や画面共有禁止 。\n・キャストへの許可のないフレンド申請、接触行為禁止。\n"
     },
     {
       "eventName": "Bar Southern Cross",
