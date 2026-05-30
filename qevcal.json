@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-05-23 05:43:55",
+  "updateAt": "2026-05-31 05:11:19",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -74,6 +74,20 @@
       "note": "Android対応アバター(サンプル可)必須です。\n注意事項などをよくお読みの上インスタンスにjoinしてください。"
     },
     {
+      "eventName": "café AMLIVELL 〜あんりべる〜",
+      "dayOfWeek": 127,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 400,
+      "endTime": 500,
+      "organizer": "三阪あむ",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_d854f414-8c84-4328-9d14-9a2774fdcf8c",
+      "information": "かなり夜ふかし、かなり早起き。\n星空の下でコーヒーをどうぞ。\n\n～詳細～\n雑談系のイベントです（無言作業もOK）\n無言勢の方大歓迎！！QvPenあります！！\n\n～ご案内～\n「ギャラリー」タブに店内の写真を掲載しています。",
+      "note": "【イベント中のルール（抜粋）】※Groupのルール欄必読\n・光や音の出るギミックの使用はご遠慮ください。\n・他のお客様の迷惑になる行為を行わないよう、十分ご配慮ください。\n・大きなアバター、威圧感のあるアバターの使用はお控えください。"
+    },
+    {
       "eventName": "Questラジオ体操部",
       "dayOfWeek": 127,
       "biweekly": 0,
@@ -86,6 +100,20 @@
       "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
       "information": "",
       "note": ""
+    },
+    {
+      "eventName": "テセウスの運動朝活",
+      "dayOfWeek": 127,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 805,
+      "endTime": 820,
+      "organizer": "テセウスの運動朝活",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_adcfca09-dc33-4e4d-bfc3-4805dcdb71c8",
+      "information": "08:05から15分くらい踊ったり筋トレしたりします。朝のアップにどうぞ。\n主催X（旧twitter）:@liruk\n@liruk@misskey.niri.la",
+      "note": "Android対応アバターでいらっしゃってください。Impostorで構いません。\nYoutubeからの再生ができることを事前に確認いただけるとスムーズです。\n健康第一です。無理をするよりはサボりましょう。"
     },
     {
       "eventName": "研究室カフェ",
@@ -548,6 +576,20 @@
       "groupId": "grp_bc939220-a5e6-4740-8942-ffc1c3d28f50",
       "information": "このイベントは雑談集会所です\nほぼ毎日、22時から開いていていろんな人が集まってくる場所であり見送る場所です\nVRChatを始めてからどこに行けばいいかわからない\nとりあえず話だけでも聞きたい\nそんな初心者さんも歓迎します\n是非お一人でもフレンドと一緒でも遊びに来てください",
       "note": "グループの注意事項は読んでおいてくれると助かります"
+    },
+    {
+      "eventName": "言ノ葉の集い",
+      "dayOfWeek": 16,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2200,
+      "endTime": 2300,
+      "organizer": "FM言ノ葉",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_f38fa3e2-da57-4c61-83fd-83960711944c",
+      "information": "本が読めるワールド「言ノ葉堂」にて本を読んだり雑談したりするイベントです。 VRCの創作作品の展示ほか、2階にはラジオスタジオもあります。 本やラジオに興味のある方、ご来店お待ちしております！",
+      "note": ""
     },
     {
       "eventName": "#Questラーメン集会",
