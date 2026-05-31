@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-05-31 05:11:19",
+  "updateAt": "2026-06-01 05:15:04",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -114,6 +114,20 @@
       "groupId": "grp_adcfca09-dc33-4e4d-bfc3-4805dcdb71c8",
       "information": "08:05から15分くらい踊ったり筋トレしたりします。朝のアップにどうぞ。\n主催X（旧twitter）:@liruk\n@liruk@misskey.niri.la",
       "note": "Android対応アバターでいらっしゃってください。Impostorで構いません。\nYoutubeからの再生ができることを事前に確認いただけるとスムーズです。\n健康第一です。無理をするよりはサボりましょう。"
+    },
+    {
+      "eventName": "朝カフェ洛遥",
+      "dayOfWeek": 62,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 900,
+      "endTime": 1000,
+      "organizer": "朝カフェ洛遥",
+      "joinMethod": 3,
+      "platform": 5,
+      "groupId": "grp_76b2402b-72de-40de-b1b2-b549ebf94491",
+      "information": "平日の朝に開いている、VRChatのモーニングカフェです。\n出勤前の雑談、朝のコーヒー、作業前のひと息など気軽に立ち寄れる朝の居場所です。\n初めての方もお気軽にどうぞ。",
+      "note": "ハッシュタグは ＃らくよう_vrc"
     },
     {
       "eventName": "研究室カフェ",
@@ -366,6 +380,20 @@
       "groupId": "grp_e4ca5c54-58ba-4b6a-a363-a246ecd71c18",
       "information": "心のバランスを整える夜のchillCafe。\n喋りたい人、作業の片手間、のんびりしたい方\nどんな方でも大丈夫です。\nお客様にとって幸せな時間が過ごせますように。\n\n\n詳細は公式X(Twitter)\n@VRC_CafeLibraをご確認ください。",
       "note": "参加条件（モデル、人数制限など）\n\n・ダウンロード容量50MB以下の軽いアバターでのご来店。\n・勧誘、迷惑行為禁止 。\n・R18、武器、過度なパーティクル等があるアバターの使用禁止 。\n ・原則配信や画面共有禁止 。\n・キャストへの許可のないフレンド申請、接触行為禁止。\n"
+    },
+    {
+      "eventName": "ヤッツィー・ヨットで遊ぶ会",
+      "dayOfWeek": 4,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2100,
+      "endTime": 2200,
+      "organizer": "maguro_",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_cecedf3a-ccb9-4433-aad3-06ff51b73332",
+      "information": "サイコロを振るだけで遊べるボードゲーム、ヨット(別名ヤッツィー)で遊ぶイベントです。\n最初にルール説明がありますので、ルールを知らない方でも参加OKです。\n皆さまの参加お待ちしてます！",
+      "note": "イベント中の録画・配信は禁止しています。(写真撮影は大歓迎です！)"
     },
     {
       "eventName": "Bar Southern Cross",
