@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-06-01 05:15:04",
+  "updateAt": "2026-06-07 18:51:21",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -15,7 +15,8 @@
       "platform": 5,
       "groupId": "grp_3e33cabd-f208-4eba-bca0-df7d3e24814f",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "cafe&gallery KING",
@@ -29,7 +30,8 @@
       "platform": 5,
       "groupId": "grp_5d99573a-ed49-4ec3-97aa-880a7d9e0e7f",
       "information": "",
-      "note": "詳細は公式Ｘ@cafephoto_KING などを確認。"
+      "note": "詳細は公式Ｘ@cafephoto_KING などを確認。",
+      "specialFlag": ""
     },
     {
       "eventName": "カルーアミルクでいいですか？",
@@ -43,7 +45,8 @@
       "platform": 5,
       "groupId": "grp_5a83f0e9-19c3-4e3e-8190-e16bf3f3e1af",
       "information": "『おだやかな空間とカルーアミルクを』をテーマとした、雑談も無言も作業も歓迎！なカクテルバーイベントです。\nカルーアミルクを用意して、お待ちしております！",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "Gun＆Cafe SilentShooter",
@@ -57,7 +60,8 @@
       "platform": 5,
       "groupId": "grp_0cf52e4b-49bc-42fb-9a98-155257384cc3",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "BAR くえたん",
@@ -71,7 +75,8 @@
       "platform": 5,
       "groupId": "grp_33d45b7f-0025-492f-94de-6a412e30f547",
       "information": "クエスト単機の方が多く集う、Android勢の方も安心してご来店いただけるBarイベントです。\n詳細はグループ内の概要や公式Xをご確認ください。",
-      "note": "Android対応アバター(サンプル可)必須です。\n注意事項などをよくお読みの上インスタンスにjoinしてください。"
+      "note": "Android対応アバター(サンプル可)必須です。\n注意事項などをよくお読みの上インスタンスにjoinしてください。",
+      "specialFlag": ""
     },
     {
       "eventName": "café AMLIVELL 〜あんりべる〜",
@@ -85,7 +90,8 @@
       "platform": 7,
       "groupId": "grp_d854f414-8c84-4328-9d14-9a2774fdcf8c",
       "information": "かなり夜ふかし、かなり早起き。\n星空の下でコーヒーをどうぞ。\n\n～詳細～\n雑談系のイベントです（無言作業もOK）\n無言勢の方大歓迎！！QvPenあります！！\n\n～ご案内～\n「ギャラリー」タブに店内の写真を掲載しています。",
-      "note": "【イベント中のルール（抜粋）】※Groupのルール欄必読\n・光や音の出るギミックの使用はご遠慮ください。\n・他のお客様の迷惑になる行為を行わないよう、十分ご配慮ください。\n・大きなアバター、威圧感のあるアバターの使用はお控えください。"
+      "note": "【イベント中のルール（抜粋）】※Groupのルール欄必読\n・光や音の出るギミックの使用はご遠慮ください。\n・他のお客様の迷惑になる行為を行わないよう、十分ご配慮ください。\n・大きなアバター、威圧感のあるアバターの使用はお控えください。",
+      "specialFlag": ""
     },
     {
       "eventName": "Questラジオ体操部",
@@ -99,7 +105,8 @@
       "platform": 5,
       "groupId": "grp_83345fc5-0cc7-4ae1-9350-65d63e9cfb5b",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "テセウスの運動朝活",
@@ -113,7 +120,8 @@
       "platform": 7,
       "groupId": "grp_adcfca09-dc33-4e4d-bfc3-4805dcdb71c8",
       "information": "08:05から15分くらい踊ったり筋トレしたりします。朝のアップにどうぞ。\n主催X（旧twitter）:@liruk\n@liruk@misskey.niri.la",
-      "note": "Android対応アバターでいらっしゃってください。Impostorで構いません。\nYoutubeからの再生ができることを事前に確認いただけるとスムーズです。\n健康第一です。無理をするよりはサボりましょう。"
+      "note": "Android対応アバターでいらっしゃってください。Impostorで構いません。\nYoutubeからの再生ができることを事前に確認いただけるとスムーズです。\n健康第一です。無理をするよりはサボりましょう。",
+      "specialFlag": ""
     },
     {
       "eventName": "朝カフェ洛遥",
@@ -127,7 +135,8 @@
       "platform": 5,
       "groupId": "grp_76b2402b-72de-40de-b1b2-b549ebf94491",
       "information": "平日の朝に開いている、VRChatのモーニングカフェです。\n出勤前の雑談、朝のコーヒー、作業前のひと息など気軽に立ち寄れる朝の居場所です。\n初めての方もお気軽にどうぞ。",
-      "note": "ハッシュタグは ＃らくよう_vrc"
+      "note": "ハッシュタグは ＃らくよう_vrc",
+      "specialFlag": ""
     },
     {
       "eventName": "研究室カフェ",
@@ -141,7 +150,8 @@
       "platform": 5,
       "groupId": "grp_0863d0cf-339a-4ce5-9e68-29860a923c5b",
       "information": "自由に雑談や交流を楽しめる、まったり系イベントです。平日のお昼、少しだけ息抜きしませんか？",
-      "note": "イベントの感想などはハッシュタグ #研フェ をつけてpostしてください！"
+      "note": "イベントの感想などはハッシュタグ #研フェ をつけてpostしてください！",
+      "specialFlag": ""
     },
     {
       "eventName": "Cafeうさぎ「日本人向け：ともつく」",
@@ -155,7 +165,8 @@
       "platform": 7,
       "groupId": "grp_2a6b7e51-2455-492b-b590-1ce61145c81a",
       "information": "日本人向けの集会です。遊んだりお喋りして友達を増やそう！\n初見さんが参加しやすい雑談イベントです！\nベテランさんも是非おいでくださいませ～\ngroup加入申請は、なるべく営業時間前までに申請お願いします\n(イベント中ですと対応できない場合があります）ご了承ください",
-      "note": "イベントの性質上　日本語の自己紹介の、記載をお願い致します。（日本人であることの判断できませんとGroup参加申請お受けできません）エックス(旧Twitter)リンク〇　判断情報少✖　英語のみプロフ✖　"
+      "note": "イベントの性質上　日本語の自己紹介の、記載をお願い致します。（日本人であることの判断できませんとGroup参加申請お受けできません）エックス(旧Twitter)リンク〇　判断情報少✖　英語のみプロフ✖　",
+      "specialFlag": ""
     },
     {
       "eventName": "紅茶を飲む集会",
@@ -169,7 +180,8 @@
       "platform": 5,
       "groupId": "",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "暇な時間帯にゲムワで遊びませんか？【＃暇ゲムワ】",
@@ -183,7 +195,8 @@
       "platform": 5,
       "groupId": "grp_5b1b6359-2d7e-4f2c-8d17-6215f202fa1e",
       "information": "",
-      "note": "土日祝のいずれか開催。詳細はグループポストなどを確認。"
+      "note": "土日祝のいずれか開催。詳細はグループポストなどを確認。",
+      "specialFlag": ""
     },
     {
       "eventName": "仮装学生集会",
@@ -197,7 +210,8 @@
       "platform": 5,
       "groupId": "grp_7f00b4df-b48a-4022-af20-81fa31a4b110",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "メタバースソーラン【ソーラン節エクササイズ!】",
@@ -211,7 +225,8 @@
       "platform": 5,
       "groupId": "grp_d3b55a85-1fbf-41de-bc6e-8bc745591859",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "雑談Bar「イケオジ」",
@@ -225,7 +240,8 @@
       "platform": 5,
       "groupId": "grp_760a31b7-1cf2-4e61-b27d-99ba6ccd399c",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "Quest Dance party Club（#QDC_VRC）",
@@ -239,7 +255,8 @@
       "platform": 5,
       "groupId": "grp_34028ce7-491c-4074-827c-408cbb6f78a1",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "#クエだべ クエ集でだべろう",
@@ -253,7 +270,8 @@
       "platform": 7,
       "groupId": "grp_e44a508d-8923-4f4a-998c-2193d6497a92",
       "information": "Androidユーザー向け初心者歓迎ノーテーマ雑談イベントです。公式グループパブリックインスタンスにて開催。詳細は公式X(Twitter) @queshu_officialをご確認ください。",
-      "note": "Android対応アバターの利用が必須となります。iOS対応の有無は任意です。"
+      "note": "Android対応アバターの利用が必須となります。iOS対応の有無は任意です。",
+      "specialFlag": ""
     },
     {
       "eventName": "VRC初心者ワールドツアー",
@@ -267,7 +285,8 @@
       "platform": 5,
       "groupId": "grp_66c9286a-ad97-48dd-b21c-1b64122ac4ff",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "Quest駆け出し集会",
@@ -281,7 +300,8 @@
       "platform": 5,
       "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "#Quest初心者交流会",
@@ -295,7 +315,8 @@
       "platform": 5,
       "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "#Quest初心者交流会",
@@ -309,7 +330,8 @@
       "platform": 5,
       "groupId": "grp_a1a6fbc6-9921-4a34-abe5-029f342cd352",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "初心者歓迎ゲームワールド集会「ゆるゲMEET」",
@@ -323,7 +345,8 @@
       "platform": 5,
       "groupId": "grp_34ca87e0-7ab4-4a55-b9aa-5f502ad493d5",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "VRAF飛行機教習所",
@@ -337,7 +360,8 @@
       "platform": 5,
       "groupId": "",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "手話検定対策イベント",
@@ -351,7 +375,8 @@
       "platform": 5,
       "groupId": "grp_55712cfd-77ab-464f-8174-1483616c0c89",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "釣り堀barこいのぼり",
@@ -365,7 +390,8 @@
       "platform": 5,
       "groupId": "grp_fd0732fc-cd0c-4bc4-b4d1-bc3d868a2b48",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "CafeLibra",
@@ -379,7 +405,8 @@
       "platform": 7,
       "groupId": "grp_e4ca5c54-58ba-4b6a-a363-a246ecd71c18",
       "information": "心のバランスを整える夜のchillCafe。\n喋りたい人、作業の片手間、のんびりしたい方\nどんな方でも大丈夫です。\nお客様にとって幸せな時間が過ごせますように。\n\n\n詳細は公式X(Twitter)\n@VRC_CafeLibraをご確認ください。",
-      "note": "参加条件（モデル、人数制限など）\n\n・ダウンロード容量50MB以下の軽いアバターでのご来店。\n・勧誘、迷惑行為禁止 。\n・R18、武器、過度なパーティクル等があるアバターの使用禁止 。\n ・原則配信や画面共有禁止 。\n・キャストへの許可のないフレンド申請、接触行為禁止。\n"
+      "note": "参加条件（モデル、人数制限など）\n\n・ダウンロード容量50MB以下の軽いアバターでのご来店。\n・勧誘、迷惑行為禁止 。\n・R18、武器、過度なパーティクル等があるアバターの使用禁止 。\n ・原則配信や画面共有禁止 。\n・キャストへの許可のないフレンド申請、接触行為禁止。\n",
+      "specialFlag": ""
     },
     {
       "eventName": "ヤッツィー・ヨットで遊ぶ会",
@@ -393,7 +420,8 @@
       "platform": 7,
       "groupId": "grp_cecedf3a-ccb9-4433-aad3-06ff51b73332",
       "information": "サイコロを振るだけで遊べるボードゲーム、ヨット(別名ヤッツィー)で遊ぶイベントです。\n最初にルール説明がありますので、ルールを知らない方でも参加OKです。\n皆さまの参加お待ちしてます！",
-      "note": "イベント中の録画・配信は禁止しています。(写真撮影は大歓迎です！)"
+      "note": "イベント中の録画・配信は禁止しています。(写真撮影は大歓迎です！)",
+      "specialFlag": ""
     },
     {
       "eventName": "Bar Southern Cross",
@@ -407,7 +435,8 @@
       "platform": 5,
       "groupId": "grp_e4a9dcd7-d8dd-4231-a3c1-aa17ad180884",
       "information": "",
-      "note": "第一部：21:05～21:55 第二部：22:05~22:55"
+      "note": "第一部：21:05～21:55 第二部：22:05~22:55",
+      "specialFlag": ""
     },
     {
       "eventName": "Questコロニー",
@@ -421,7 +450,8 @@
       "platform": 5,
       "groupId": "",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "なすさんぽ",
@@ -435,7 +465,8 @@
       "platform": 5,
       "groupId": "grp_760286a4-6230-4b5a-8c88-5f2852971c99",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "裏盃喫茶大狼組Cosplay Cafe",
@@ -449,7 +480,8 @@
       "platform": 5,
       "groupId": "grp_a5f27324-f267-44dc-ad7b-a71a07b07162",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "セイオワプラネタリウム",
@@ -463,7 +495,8 @@
       "platform": 5,
       "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
       "information": "",
-      "note": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。"
+      "note": "開催回ごとに曜日が異なります。詳細は公式X @NoSeiso まで。",
+      "specialFlag": ""
     },
     {
       "eventName": "Quest BAR NEKOMANMA",
@@ -477,7 +510,8 @@
       "platform": 1,
       "groupId": "grp_c29efd23-7be0-4b95-ab15-de22837c920f",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "世界を巡る者たち",
@@ -491,7 +525,8 @@
       "platform": 5,
       "groupId": "grp_77ed01e6-4f24-444c-8a84-1a270acd22bc",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "万人酒場",
@@ -505,7 +540,8 @@
       "platform": 5,
       "groupId": "grp_fd8d8bb2-e94e-416b-894e-11e24712314a",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "星空とオリジナルカクテルが楽しめる Bar Etoilume from SEISO NO OWARI",
@@ -519,7 +555,8 @@
       "platform": 7,
       "groupId": "grp_8dc11ff9-a26e-4b0b-af58-261f525df1fd",
       "information": "輝く夜空の星と、メンバーが作るオリジナルカクテルが楽しめるバーイベントです。注文によってはお客様のお好みに合わせておつくりいたします。メンバーとの会話を楽しむも良し。ご友人とカクテルを楽しむも良し。\n\n毎週金曜22～23時オープンです。",
-      "note": "基本的にPC・Android・ios対応ですが、当日のイベント内容によりPCOnlyとなる日もございます。詳細はSEISO NO OWARI公式Xをご確認ください。"
+      "note": "基本的にPC・Android・ios対応ですが、当日のイベント内容によりPCOnlyとなる日もございます。詳細はSEISO NO OWARI公式Xをご確認ください。",
+      "specialFlag": ""
     },
     {
       "eventName": "ちびっこラスベガス",
@@ -533,7 +570,8 @@
       "platform": 5,
       "groupId": "grp_0324747a-7fc4-4f92-b5f3-675c76b66283",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "ゆるゆる書道集会",
@@ -547,7 +585,8 @@
       "platform": 5,
       "groupId": "grp_69bf8a69-be35-433d-86d2-8fe5d535fb79",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "VRC手話べりの集い",
@@ -561,7 +600,8 @@
       "platform": 7,
       "groupId": "grp_55712cfd-77ab-464f-8174-1483616c0c89",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "スターソックス地球店",
@@ -575,7 +615,8 @@
       "platform": 5,
       "groupId": "grp_77063614-00ea-4639-b851-99b770014121",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "ワールド巡り交流所　「WANDERER」",
@@ -589,7 +630,8 @@
       "platform": 5,
       "groupId": "grp_3755961a-da53-4596-9a29-ac238bcb1e88",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     },
     {
       "eventName": "集会所「月虹」",
@@ -603,7 +645,8 @@
       "platform": 7,
       "groupId": "grp_bc939220-a5e6-4740-8942-ffc1c3d28f50",
       "information": "このイベントは雑談集会所です\nほぼ毎日、22時から開いていていろんな人が集まってくる場所であり見送る場所です\nVRChatを始めてからどこに行けばいいかわからない\nとりあえず話だけでも聞きたい\nそんな初心者さんも歓迎します\n是非お一人でもフレンドと一緒でも遊びに来てください",
-      "note": "グループの注意事項は読んでおいてくれると助かります"
+      "note": "グループの注意事項は読んでおいてくれると助かります",
+      "specialFlag": ""
     },
     {
       "eventName": "言ノ葉の集い",
@@ -617,7 +660,23 @@
       "platform": 7,
       "groupId": "grp_f38fa3e2-da57-4c61-83fd-83960711944c",
       "information": "本が読めるワールド「言ノ葉堂」にて本を読んだり雑談したりするイベントです。 VRCの創作作品の展示ほか、2階にはラジオスタジオもあります。 本やラジオに興味のある方、ご来店お待ちしております！",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
+    },
+    {
+      "eventName": "今日も一日生き延びてえらい！集会",
+      "dayOfWeek": 31,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2200,
+      "endTime": 2230,
+      "organizer": "今日も一日生き延びてえらい！集会",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_53e6ad3f-c3ac-4fd3-b50c-651a94225408",
+      "information": "「今日もお疲れ様！生き延びてえらい！」という言葉を合言葉に一日の終わりに開催する「おかえり」が待っている集会です。毎日22時から開催しています！（金曜日と土曜日は23時）\n雑談したり、会場に設置されたアイテムで遊んだり、集会の雰囲気を楽しんだりと自由な集会です！",
+      "note": "本日の集会担当は日によって異なります。\n詳しくはX公式アカウント( @ikinobite_erai )をチェック。\n\n【禁止事項】\n・高負荷のアバターや過度のパーティクル・大音量を発生するもの、\n・過度な露出およびセンシティブなアバターそれに準するもの・行為\n・暴力的行為",
+      "specialFlag": "表記のみ毎日開催に"
     },
     {
       "eventName": "#Questラーメン集会",
@@ -631,7 +690,23 @@
       "platform": 5,
       "groupId": "grp_cc504798-7659-49e7-9ecc-41d199a563fb",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
+    },
+    {
+      "eventName": "今日も一日生き延びてえらい！集会",
+      "dayOfWeek": 96,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2300,
+      "endTime": 2330,
+      "organizer": "今日も一日生き延びてえらい！集会",
+      "joinMethod": 3,
+      "platform": 7,
+      "groupId": "grp_53e6ad3f-c3ac-4fd3-b50c-651a94225408",
+      "information": "「今日もお疲れ様！生き延びてえらい！」という言葉を合言葉に一日の終わりに開催する「おかえり」が待っている集会です。毎日22時から開催しています！（金曜日と土曜日は23時）\n雑談したり、会場に設置されたアイテムで遊んだり、集会の雰囲気を楽しんだりと自由な集会です！",
+      "note": "本日の集会担当は日によって異なります。\n詳しくはX公式アカウント( @ikinobite_erai )をチェック。\n\n【禁止事項】\n・高負荷のアバターや過度のパーティクル・大音量を発生するもの、\n・過度な露出およびセンシティブなアバターそれに準するもの・行為\n・暴力的行為",
+      "specialFlag": "表記のみ毎日開催に"
     },
     {
       "eventName": "誰でも神絵師交流会",
@@ -645,7 +720,8 @@
       "platform": 5,
       "groupId": "",
       "information": "",
-      "note": ""
+      "note": "",
+      "specialFlag": ""
     }
   ],
   "allowiosToggle": false,
