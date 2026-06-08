@@ -1,0 +1,440 @@
+/* ========== Base ========== */
+body {
+    font-family: "M PLUS 1p", "Meiryo UI", MeiryoUI, "メイリオ", Meiryo, "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", sans-serif;
+    background-image: url(queshu_visual.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    color: #333;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ========== Header ========== */
+.viewer-header {
+    background: rgba(244, 245, 247, 0.92);
+    backdrop-filter: blur(6px);
+    padding: 8px 14px 6px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.header-logo {
+    height: 32px;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+.discord-link {
+    font-size: 0.75em;
+    white-space: nowrap;
+    margin-left: auto;
+}
+
+/* ========== Nav buttons ========== */
+.nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.nav-btn {
+    padding: 4px 11px;
+    border-radius: 9999px;
+    background: rgba(244, 245, 247, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    font-size: 0.88em;
+    transition: background 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.nav-btn:hover {
+    background: rgba(200, 220, 240, 0.9);
+}
+
+.nav-btn.active {
+    background: #4a7fa5;
+    color: #fff;
+    border-color: #4a7fa5;
+}
+
+/* ========== Controls bar ========== */
+.controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 6px 14px;
+    background: rgba(244, 245, 247, 0.78);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.platform-label {
+    font-size: 0.82em;
+    color: #666;
+}
+
+.platform-toggles {
+    display: flex;
+    gap: 4px;
+}
+
+.toggle-btn {
+    padding: 3px 10px;
+    border-radius: 9999px;
+    background: rgba(220, 225, 230, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 0.82em;
+    transition: background 0.15s, color 0.15s;
+}
+
+.toggle-btn.active {
+    background: #5a9050;
+    color: #fff;
+    border-color: #5a9050;
+}
+
+.toggle-btn[hidden] {
+    display: none !important;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 140px;
+    max-width: 280px;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.85);
+    font-size: 0.88em;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4a7fa5;
+}
+
+/* ========== Main layout ========== */
+.viewer-main {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 10px;
+    padding: 10px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* ========== Event list panel ========== */
+.event-list-panel {
+    background: rgba(244, 245, 247, 0.78);
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: calc(100vh - 140px);
+}
+
+/* Section headers (開催中 / これから / 今日 / 明日) */
+.section-header {
+    padding: 5px 12px;
+    font-size: 0.78em;
+    font-weight: bold;
+    background: rgba(190, 205, 220, 0.55);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.section-header.now {
+    color: #b33;
+    background: rgba(255, 200, 200, 0.6);
+}
+
+.section-header.upcoming {
+    color: #864;
+    background: rgba(255, 235, 150, 0.6);
+}
+
+.section-header.today {
+    color: #448;
+    background: rgba(190, 210, 255, 0.6);
+}
+
+.section-header.tomorrow {
+    color: #474;
+    background: rgba(195, 235, 195, 0.6);
+}
+
+/* Event item */
+.event-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.event-item:hover {
+    background: rgba(180, 210, 235, 0.45);
+}
+
+.event-item.selected {
+    background: rgba(74, 127, 165, 0.22);
+}
+
+.event-time {
+    font-size: 0.82em;
+    color: #555;
+    min-width: 88px;
+    margin-right: 8px;
+    padding-top: 2px;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+
+.event-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.event-name {
+    font-size: 0.95em;
+    font-weight: bold;
+    line-height: 1.4;
+    word-break: break-all;
+}
+
+.event-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.78em;
+    color: #666;
+    margin-top: 2px;
+}
+
+.event-schedule {
+    color: #558;
+}
+
+.event-biweekly {
+    color: #858;
+}
+
+.platform-badges {
+    display: flex;
+    gap: 2px;
+}
+
+.platform-badge {
+    font-size: 0.72em;
+    padding: 1px 5px;
+    border-radius: 9999px;
+    line-height: 1.4;
+}
+
+.platform-badge.android {
+    background: rgba(80, 160, 80, 0.25);
+    color: #363;
+}
+
+.platform-badge.ios {
+    background: rgba(80, 100, 200, 0.25);
+    color: #449;
+}
+
+/* Empty / loading state */
+.empty-state {
+    padding: 28px 20px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* ========== Detail panel ========== */
+.detail-panel {
+    background: rgba(244, 245, 247, 0.88);
+    border-radius: 10px;
+    padding: 14px;
+    overflow-y: auto;
+    max-height: calc(100vh - 140px);
+    position: sticky;
+    top: 10px;
+    align-self: start;
+}
+
+.detail-close-btn {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #888;
+    background: none;
+    border: none;
+}
+
+.detail-empty {
+    color: #aaa;
+    text-align: center;
+    padding: 28px 12px;
+    font-size: 0.88em;
+}
+
+.detail-event-name {
+    font-size: 1.05em;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    word-break: break-all;
+}
+
+.detail-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 7px;
+    font-size: 0.88em;
+}
+
+.detail-label {
+    color: #888;
+    min-width: 64px;
+    flex-shrink: 0;
+}
+
+.detail-value {
+    flex: 1;
+    word-break: break-all;
+}
+
+.detail-notice {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    background: rgba(255, 220, 90, 0.3);
+    border-radius: 8px;
+    font-size: 0.82em;
+    color: #664;
+}
+
+.detail-info {
+    margin-top: 10px;
+    padding: 8px 10px;
+    background: rgba(210, 225, 250, 0.35);
+    border-radius: 8px;
+    font-size: 0.82em;
+    color: #445;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+.detail-note {
+    margin-top: 8px;
+    padding: 8px 10px;
+    background: rgba(210, 235, 210, 0.35);
+    border-radius: 8px;
+    font-size: 0.82em;
+    color: #464;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+.group-link {
+    color: #4a7fa5;
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+.cross-midnight-note {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 4px;
+}
+
+/* ========== Update info ========== */
+.update-info {
+    font-size: 0.75em;
+    color: #888;
+    text-align: right;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+/* ========== Mobile ========== */
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+
+    .viewer-main {
+        grid-template-columns: 1fr;
+        padding: 6px;
+        gap: 0;
+    }
+
+    .event-list-panel {
+        border-radius: 10px 10px 0 0;
+        max-height: calc(100vh - 150px);
+    }
+
+    .detail-panel {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        max-height: 62vh;
+        border-radius: 14px 14px 0 0;
+        z-index: 200;
+        box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.25);
+        background: rgba(244, 245, 247, 0.97);
+        align-self: auto;
+    }
+
+    .detail-panel.open {
+        display: block;
+    }
+
+    .detail-close-btn {
+        display: block;
+    }
+
+    .header-top {
+        flex-wrap: wrap;
+    }
+
+    .controls {
+        padding: 5px 10px;
+    }
+
+    .search-input {
+        max-width: none;
+    }
+}
