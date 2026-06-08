@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-06-07 18:54:02",
+  "updateAt": "2026-06-09 06:11:48",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -178,7 +178,7 @@
       "organizer": "Shifty6741,伊鷹いあ",
       "joinMethod": 3,
       "platform": 5,
-      "groupId": "",
+      "groupId": "grp_bd2ef2fe-6853-49cf-bc6b-8c0f3eb5f14f",
       "information": "",
       "note": "",
       "specialFlag": ""
