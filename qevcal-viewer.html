@@ -456,7 +456,6 @@
     let searchQuery = '';
     let selectedEventIdx = -1;
     let updateAt = '';
-    let credit = '';
 
     function getJSTNow() {
       return new Date(Date.now() + 9 * 3600 * 1000);
@@ -856,7 +855,6 @@
       const el = document.getElementById('updateInfo');
       const parts = [];
       if (updateAt) parts.push('update at ' + updateAt);
-      if (credit) parts.push(credit);
       el.textContent = parts.join(' / ');
     }
 
@@ -889,7 +887,6 @@
 
         updateAt = data.updateAt || '';
         allowIosToggle = typeof data.allowiosToggle === 'boolean' ? data.allowiosToggle : true;
-        credit = data.credit || '';
         allEvents = Array.isArray(data.events) ? data.events.map(normalizeEvent) : [];
 
         const toggleIOS = document.getElementById('toggleIOS');
