@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-06-09 06:11:48",
+  "updateAt": "2026-06-10 06:02:49",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -421,6 +421,21 @@
       "groupId": "grp_cecedf3a-ccb9-4433-aad3-06ff51b73332",
       "information": "サイコロを振るだけで遊べるボードゲーム、ヨット(別名ヤッツィー)で遊ぶイベントです。\n最初にルール説明がありますので、ルールを知らない方でも参加OKです。\n皆さまの参加お待ちしてます！",
       "note": "イベント中の録画・配信は禁止しています。(写真撮影は大歓迎です！)",
+      "specialFlag": ""
+    },
+    {
+      "eventName": "Quest Kemono Bar -爆煙-",
+      "dayOfWeek": 8,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2100,
+      "endTime": 2200,
+      "organizer": "Uraneta",
+      "joinMethod": 5,
+      "platform": 5,
+      "groupId": "grp_8d904fdf-2174-4a7b-9b50-cb6189a86d57",
+      "information": "毎週水曜21˸00~22˸00に開店！ 週の真ん中でゆったり過ごしませんか？ 21˸50頃に集合写真を撮ります！ ご来店お待ちしております！",
+      "note": "集会所タイプのイベントです。Android（Quest）対応されたアバターの使用をお願いしています。iOS対応の有無は任意です。",
       "specialFlag": ""
     },
     {
