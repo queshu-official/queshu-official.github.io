@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-06-10 06:02:49",
+  "updateAt": "2026-06-16 06:46:24",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -692,6 +692,36 @@
       "information": "「今日もお疲れ様！生き延びてえらい！」という言葉を合言葉に一日の終わりに開催する「おかえり」が待っている集会です。毎日22時から開催しています！（金曜日と土曜日は23時）\n雑談したり、会場に設置されたアイテムで遊んだり、集会の雰囲気を楽しんだりと自由な集会です！",
       "note": "本日の集会担当は日によって異なります。\n詳しくはX公式アカウント( @ikinobite_erai )をチェック。\n\n【禁止事項】\n・高負荷のアバターや過度のパーティクル・大音量を発生するもの、\n・過度な露出およびセンシティブなアバターそれに準するもの・行為\n・暴力的行為",
       "specialFlag": 1
+    },
+    {
+      "eventName": "Lumière Dorée【接客型バーイベント】",
+      "dayOfWeek": 8,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2200,
+      "endTime": 2300,
+      "organizer": "黄金こがね",
+      "joinMethod": 3,
+      "platform": 5,
+      "groupId": "grp_dd019053-7bb2-4ecf-9d65-b6dd199dba94",
+      "information": "落ち着いた空間で楽しい社交を。がテーマの接客型雑談イベント\nカウンター席・ソファ席を選んでいただき、1対2の接客が15分×3回ございます。\n出席キャストは当日Xにて発表します。(@barlumiere0924)",
+      "note": "キャスト・スタッフのQuest対応は任意となっております。",
+      "specialFlag": ""
+    },
+    {
+      "eventName": "Akyo Cafe and Beer",
+      "dayOfWeek": 4,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2200,
+      "endTime": 2300,
+      "organizer": "Akyo Cafe and Beerのグループ＋",
+      "joinMethod": 3,
+      "platform": 5,
+      "groupId": "grp_833eecfe-c802-4ece-be35-68960a9c27e3",
+      "information": "Akyoと一緒にまったり過ごせるセルフカフェ＆バーです。\n初参加・お一人様歓迎、途中参加・途中退出OK。\nお気軽にご参加ください！",
+      "note": "AKCFB.8957。版権・著作権など権利関係が疑われるアバター、重すぎるアバター、過度なエフェクト・大音量SE、過度な露出や巨大サイズなど、イベントの雰囲気に合わないアバターはご遠慮ください。",
+      "specialFlag": ""
     },
     {
       "eventName": "#Questラーメン集会",
