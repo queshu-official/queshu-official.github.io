@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 3,
-  "updateAt": "2026-06-21 21:44:18",
+  "updateAt": "2026-06-21 21:47:11",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -680,7 +680,7 @@
     },
     {
       "eventName": "今日も一日生き延びてえらい！集会",
-      "dayOfWeek": 31,
+      "dayOfWeek": 30,
       "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2200,
@@ -740,7 +740,7 @@
     },
     {
       "eventName": "今日も一日生き延びてえらい！集会",
-      "dayOfWeek": 96,
+      "dayOfWeek": 97,
       "biweekly": 0,
       "dateInMonth": "",
       "startTime": 2300,
