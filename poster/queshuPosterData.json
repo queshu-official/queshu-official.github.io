@@ -2,6 +2,7 @@
   "posterAtlas1": [
     {
       "world": "wrld_17777e91-3c5f-4079-9291-9b0cd3d636a1",
+      "group": "grp_4757db03-effd-4e6e-9e6f-04d9ae5791ff",
       "ratioX": 1200,
       "ratioY": 1800
     },
@@ -79,6 +80,7 @@
       "ratioY": 1028
     },
     {
+      "group": "grp_2160bc70-5aaa-4249-bf0c-882575a6e7dc",
       "ratioX": 1200,
       "ratioY": 1600
     },
@@ -115,6 +117,7 @@
   "posterAtlas6": [
     {
       "world": "wrld_8211e461-afb7-4c67-b78f-74cab04f7af9",
+      "group": "grp_bd2ef2fe-6853-49cf-bc6b-8c0f3eb5f14f",
       "ratioX": 1240,
       "ratioY": 1754
     },
