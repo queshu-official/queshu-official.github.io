@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 4,
-  "updateAt": "2026-06-21 22:32:08",
+  "updateAt": "2026-06-25 05:50:08",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -436,6 +436,21 @@
       "groupId": "grp_8d904fdf-2174-4a7b-9b50-cb6189a86d57",
       "information": "毎週水曜21˸00~22˸00に開店！ 週の真ん中でゆったり過ごしませんか？ 21˸50頃に集合写真を撮ります！ ご来店お待ちしております！",
       "note": "集会所タイプのイベントです。Android（Quest）対応されたアバターの使用をお願いしています。iOS対応の有無は任意です。",
+      "specialFlag": ""
+    },
+    {
+      "eventName": "水曜Quest初心者の集い",
+      "dayOfWeek": 8,
+      "biweekly": 0,
+      "dateInMonth": "",
+      "startTime": 2100,
+      "endTime": 2200,
+      "organizer": "児玉ひかり",
+      "joinMethod": 3,
+      "platform": 5,
+      "groupId": "grp_3e1dd1c4-c555-4477-a39d-96f0bb0469ca",
+      "information": "Androidユーザーや初心者と会いたい人が集まって雑談するイベントです\nグループ+で開きますのでグループに加入してインスタンスにお入りください\n詳細は公式X(@suiQ_21)をご確認ください",
+      "note": "Android対応アバターの着用を推奨します",
       "specialFlag": ""
     },
     {
