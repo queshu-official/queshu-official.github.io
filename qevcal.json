@@ -1,7 +1,7 @@
 {
   "version": 2,
   "minorVersion": 4,
-  "updateAt": "2026-06-25 05:50:08",
+  "updateAt": "2026-07-15 05:16:51",
   "events": [
     {
       "eventName": "VRC養命酒を飲む会",
@@ -224,21 +224,6 @@
       "joinMethod": 8,
       "platform": 5,
       "groupId": "grp_d3b55a85-1fbf-41de-bc6e-8bc745591859",
-      "information": "",
-      "note": "",
-      "specialFlag": ""
-    },
-    {
-      "eventName": "雑談Bar「イケオジ」",
-      "dayOfWeek": 69,
-      "biweekly": 0,
-      "dateInMonth": "",
-      "startTime": 2030,
-      "endTime": 2145,
-      "organizer": "飛燕_HIEN",
-      "joinMethod": 8,
-      "platform": 5,
-      "groupId": "grp_760a31b7-1cf2-4e61-b27d-99ba6ccd399c",
       "information": "",
       "note": "",
       "specialFlag": ""
